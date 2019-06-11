@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'din';
+    src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
+        url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
+}
+.headerContainer {
+    position: relative;
+    padding: 0;
+    width: 100%;
+}
+.backgroundImg{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+}
+p{
+    margin: 0;
+}
+.title{
+    color: #C0E6EC;
+    font-size: 8vw;
+    font-family: din;
+}
+.info{
+    color: #EBF5F4;
+    font-size: 2.5vw;
+    font-family: din;
+    margin-left: .5vw;
+}

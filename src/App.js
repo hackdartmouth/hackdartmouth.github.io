@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from './Header';
+import UserNav from './UserNav';
+import About from './About';
+import FAQ from './FAQ';
+class App extends Component {
+	constructor(props){
+    super();
+    this.state = {
+      pages: [
+        {
+            visible: true,
+            navText: "ABOUT",
+            href: "about"
+    
+        },
+        {
+            visible: true,
+            navText: "FAQ",
+            href: "faq"
+    
+        },
+        {
+            visible: true,
+            navText: "SPONSORS",
+            href: "sponsors"
+        },
+        {
+            visible: true,
+            navText: "REGISTER",
+            href: "register"
+        }
+      ],
+    }
+  }
+  render = () => {
+    return (
+      <>
+        <Header/>
+        <UserNav pages={this.state.pages}/>
+        <About/>
+        <FAQ/>
+      </>
+    );
+  }
 }
 
 export default App;
