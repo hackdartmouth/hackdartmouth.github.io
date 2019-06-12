@@ -1,19 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './ContentPage.css';
-import AboutBody from './AboutBody';
+// import AboutBody from './AboutBody';
 
-class ContentPage extends Component {
-    render = () =>{
-        return(
-            <div className="pageContainer">
-                <img className="backgroundImg" src={require(`./img/${this.props.backgroundImg}`)} alt="Background"/>
-                <div className="pageText">
-                    <p className="pageTitle">{this.props.title}</p>
-                    <this.props.bodyComponent bodyContent={this.props.bodyContent}/>
-                </div>
-            </div>
-        );
-    }
+const ContentPage = ({ title, bodyContent, backgroundImg }) => (
+  <div className="pageContainer">
+    <img className="backgroundImg" src={require(`./img/${backgroundImg}`)} alt="Background" />
+    <div className="pageText">
+      <p className="pageTitle">{title}</p>
+      <this.props.bodyComponent bodyContent={bodyContent} />
+    </div>
+  </div>
+);
 
-}
 export default ContentPage;
