@@ -3,31 +3,25 @@
     src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
         url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
 }
-.aboutContainer {
+.pageContainer {
     position: relative;
     padding: 0;
     width: 100%;
 }
-.backgroundImg{
-}
-.aboutText{
+.pageText{
     position: absolute;
     width: 100%;
-    top: 10%;
+    top: 3vw;
     text-align: center;
     color: white;
 }
-p{
-    margin: 0;
-}
-.aboutTitle{
-    font-size: 5vw;
+.pageTitle{
+    font-size: 3vw;
     font-family: din;
+    margin-bottom: 2vw;
 }
-.aboutBody{
+.pageBody{
     font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: .5vw;
     width: 55%;
-    margin-left: 22.5%;
 }

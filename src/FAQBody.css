@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'din';
+    src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
+        url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
+}
+.colContainer{
+    width: 100%;
+    text-align: left;
+}
+.QATitle{
+    font-size: 1.2vw;
+    margin: 0;
+}
+.QAText{
+    font-size: 1.02vw;
+    margin-bottom: 1.02vw;
+    font-weight: 100;
+
+}

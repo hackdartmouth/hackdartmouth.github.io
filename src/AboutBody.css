@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'din';
+    src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
+        url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
+}
+.pContainer {
+    position: absolute;
+    padding: 0;
+    width: 60%;
+    margin-left: 20%;
+}
+.paragraph{ 
+    font-size: 1.7vw;
+    width: 100%;
+    top: 10%;
+    color: white;
+    text-align: left;
+    margin-bottom: 1.7vw;
+}
