@@ -4,15 +4,20 @@ import Header from './Header';
 import UserNav from './UserNav';
 import ContentPage from './ContentPage';
 import pages from './data/pages.js';
+import Seperator from './Seperator';
 // import SponsorsBody from './SponsorsBody';
 // import RegisterBody from './RegisterBody';
 class App extends Component {
   render = () => (
     <>
       <Header />
-      
-      {pages.map(page => (
-        <ContentPage key={page.key} backgroundImg={page.backgroundImg} title={page.pageTitle} bodyContent={page.bodyContent} />
+      <UserNav/>
+      {pages.map((page, i) => (
+        <>
+          <Seperator id={page.href}/>
+          <ContentPage dictKey={page.key} backgroundImg={page.backgroundImg} title={page.pageTitle} bodyContent={page.bodyContent} />
+          
+        </>
       ))}
     </>
   )

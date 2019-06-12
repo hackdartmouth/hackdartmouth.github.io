@@ -4,20 +4,20 @@ import AboutBody from './AboutBody';
 import FAQBody from './FAQBody';
 
 const ContentPage = ({
-  title, key, bodyContent, backgroundImg,
+  title, dictKey, bodyContent, backgroundImg, id
 }) => {
 const componentDict = {
     "AboutBody": AboutBody,
     "FAQBody": FAQBody
 }
-console.log(key);
-const bodyComponent = componentDict[key];
+console.log(dictKey);
+const BodyComponent = componentDict[dictKey];
 return (
   <div className="pageContainer">
     <img className="backgroundImg" src={require(`./img/${backgroundImg}`)} alt="Background" />
     <div className="pageText">
       <p className="pageTitle">{title}</p>
-      <bodyComponent bodyContent={bodyContent} />
+      <BodyComponent bodyContent={bodyContent} />
     </div>
   </div>
 );
