@@ -1,4 +1,5 @@
-{
+var pages = [
+    {
         "visible": true,
         "navText": "ABOUT",
         "href": "about",
@@ -9,7 +10,7 @@
           "Last year, we had our biggest hackathon to date, with ~250 people and 45 projects! This spring, HackDartmouth V will again combine experiential learning with friendly competition. With company-sponsored workshops, mentors, and the chance to develop and refine skills, we’re bringing hundreds of students from across the nation to learn, hack, and create for a weekend.",
           "The day of the event features twenty-four hours of coding, swag, and amazing prizes! Mark your calendars for April 6-7, 2019 and check out some of the projects from our past hackathons in the meantime!"
         ],
-        "bodyComponent": "AboutBody"
+        "key": "AboutBody"
     },
     {
         "visible": true,
@@ -38,7 +39,7 @@
             {
               "title": "What can I build?",
               "text": "You can build whatever you want: websites, programs, mobile apps, anything! However, all code must be written during the hackathon - feel free to use open source libraries and APIs."
-            },
+            }
           ],
           "col2": [
             {
@@ -67,7 +68,7 @@
             }
           ]
         },
-        "bodyComponent": "FAQBody"          
+        "key": "FAQBody"          
     },
     {
         "visible": true,
@@ -76,7 +77,7 @@
         "backgroundImg": "sponsors.png",
         "pageTitle": "SPONSORS",
         "bodyContent": ["This is p1. fejwi ofewj oifewj ifoaw jfoajfe owa foiwa", "This is p2, fjewio fjewio fje oiwafjeio wafjieo wafeijwa oifewa", "This is p3 fjewiofjewio  eiw. fjeiwo jfioew .fewj iofejw oifejwi"],
-        "bodyComponent": "AboutBody"
+        "key": "AboutBody"
     },
     {
         "visible": true,
@@ -85,6 +86,8 @@
         "backgroundImg": "register.png",
         "pageTitle": "REGISTER",
         "bodyContent": ["This is p1. fejwi ofewj oifewj ifoaw jfoajfe owa foiwa", "This is p2, fjewio fjewio fje oiwafjeio wafjieo wafeijwa oifewa", "This is p3 fjewiofjewio  eiw. fjeiwo jfioew .fewj iofejw oifejwi"],
-        "bodyComponent": "AboutBody"        
+        "key": "AboutBody"        
       }
-  ],
+];
+
+export default pages;

@@ -1,16 +1,14 @@
 import React, {Component} from 'react';
 import './UserNav.css';
 import {Navbar, Nav} from 'react-bootstrap';
+import pages from './data/pages.js';
 
 class UserNav extends Component {
-	constructor(props){
-		super(props);
-        this.state = {
+	static state = {
             brandImg: "treeBrand.png",
-        }
     }
     renderNavLinks = () => {
-        return this.props.pages.map((page, i)=>{
+        return pages.map((page, i)=>{
             return(
                 <Nav.Link className={page.visible ? "navLink":"hidden"} href={`#${page.href}`}>{page.navText}</Nav.Link>
             );
