@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './ContentPage.css';
 // import AboutBody from './AboutBody';
 
@@ -14,4 +15,12 @@ const ContentPage = ({
   </div>
 );
 
+ContentPage.propTypes = {
+  title: PropTypes.string.isRequired,
+  bodyContent: PropTypes.string.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  bodyComponent: PropTypes.object.isRequired,
+  backgroundImg: PropTypes.string.isRequired,
+
+};
 export default ContentPage;
