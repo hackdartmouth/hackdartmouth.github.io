@@ -1,0 +1,18 @@
+.divider{
+  width: 100%;
+  border-color: #a3a3a3;
+  margin: 0;
+}
+.tierTitle{
+  width: 100%;
+  text-align: center;
+  color: #f3f3f3;
+  font-size: 2vw;
+}
+.sponsorContainer{
+  width: 60%;
+}
+.sponsorImg{
+  padding: 5%;
+  margin: 0;
+}

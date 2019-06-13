@@ -74,10 +74,62 @@ const pages = [
     visible: true,
     navText: 'SPONSORS',
     href: 'sponsors',
-    backgroundImg: 'sponsors.png',
+    backgroundImg: 'sponsors_long.png',
     pageTitle: 'SPONSORS',
-    bodyContent: ['This is p1. fejwi ofewj oifewj ifoaw jfoajfe owa foiwa', 'This is p2, fjewio fjewio fje oiwafjeio wafjieo wafeijwa oifewa', 'This is p3 fjewiofjewio  eiw. fjeiwo jfioew .fewj iofejw oifejwi'],
-    key: 'AboutBody',
+    bodyContent: [
+      {
+        sponsorTier: 'sprout',
+        amount: '$500',
+        size: 10,
+        sponsors: [
+          'facebook.png',
+          'google.png',
+          'google.png',
+          'facebook.png',
+        ],
+      },
+      {
+        sponsorTier: 'shrub',
+        amount: '$1k',
+        size: 10,
+        sponsors: [
+          'facebook.png',
+          'google.png',
+          'google.png',
+        ],
+      },
+      {
+        sponsorTier: 'tree',
+        amount: '$2.5k',
+        size: 15,
+        sponsors: [
+          'facebook.png',
+          'google.png',
+        ],
+      },
+      {
+        sponsorTier: 'redwood',
+        amount: '$5k',
+        size: 20,
+        sponsors: [
+          'facebook.png',
+          'google.png',
+          'google.png',
+        ],
+      },
+      {
+        sponsorTier: 'lone pine',
+        amount: '$10k',
+        size: 25,
+        sponsors: [
+          'facebook.png',
+          'google.png',
+          'google.png',
+
+        ],
+      },
+    ],
+    key: 'SponsorBody',
   },
   {
     visible: true,
@@ -85,8 +137,14 @@ const pages = [
     href: 'register',
     backgroundImg: 'register.png',
     pageTitle: 'REGISTER',
-    bodyContent: ['This is p1. fejwi ofewj oifewj ifoaw jfoajfe owa foiwa', 'This is p2, fjewio fjewio fje oiwafjeio wafjieo wafeijwa oifewa', 'This is p3 fjewiofjewio  eiw. fjeiwo jfioew .fewj iofejw oifejwi'],
-    key: 'AboutBody',
+    bodyContent: {
+      event: 'HackDay III',
+      date: 'April 6-7, 2019',
+      location: 'Thayer School of Engineering',
+      info: 'Registration for non-Dartmouth students closes March 1. Dartmouth students may register up to the day of the hackathon',
+      typeformUrl: 'https://hackdartmouth.typeform.com/to/eCsxvb',
+    },
+    key: 'RegisterBody',
   },
 ];
 

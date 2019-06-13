@@ -4,17 +4,19 @@ import './ContentPage.css';
 import AboutBody from './AboutBody';
 import FAQBody from './FAQBody';
 import RegisterBody from './RegisterBody';
+import SponsorBody from './SponsorBody';
 
 const ContentPage = ({
-  title, dictKey, bodyContent, backgroundImg,
+  title, dictKey, bodyContent, backgroundImg, hidden
 }) => {
   const componentDict = {
     AboutBody,
     FAQBody,
     RegisterBody,
+    SponsorBody,
   };
   const BodyComponent = componentDict[dictKey];
-  const imgSrc = require(`./img/${backgroundImg}`);
+  const imgSrc = require(`./img/pages/${backgroundImg}`);
 
   return (
     <div className="pageContainer">
@@ -33,6 +35,7 @@ ContentPage.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   dictKey: PropTypes.object.isRequired,
   backgroundImg: PropTypes.string.isRequired,
+  hidden: PropTypes.bool.isRequired,
 
 };
 export default ContentPage;

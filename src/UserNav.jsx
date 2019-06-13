@@ -16,7 +16,7 @@ class UserNav extends Component {
       const { brandImg } = this.state;
       return (
         <Navbar collapseOnSelect sticky="top" bg="light" expand="lg">
-          <Navbar.Brand href="#home"><img height="30" className="brandImg" src={require(`./img/${brandImg}`)} alt="brand" /></Navbar.Brand>
+          <Navbar.Brand href="#home"><img height="30" className="brandImg" src={require(`./img/pages/${brandImg}`)} alt="brand" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

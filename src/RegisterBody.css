@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'din';
+  src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
+      url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
+}
+
+.registerTitle{
+  color: #C0E6EC;
+  font-size: 4vw;
+  font-family: din;
+}
+.registerSubTitle{
+  font-size: 2vw;
+}
+.registerDetails{
+  font-size: 1.5vw;
+  width: 45%;
+  text-align: center;
+  margin-left: 27.5%;
+  margin-top: 4vw;
+}
+.registerButton{
+  margin-top: 4vw;
+  width: 10vw;
+  font-size: 3vw;
+  border-radius: 10px;
+}

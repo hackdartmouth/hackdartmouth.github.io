@@ -13,6 +13,7 @@ const AboutBody = ({ bodyContent }) => (
 );
 
 AboutBody.propTypes = {
-  bodyContent: PropTypes.string.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  bodyContent: PropTypes.array.isRequired,
 };
 export default AboutBody;

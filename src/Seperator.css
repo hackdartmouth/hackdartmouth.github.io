@@ -1,7 +1,7 @@
 .seperator{
   height: 58px;
   /* The image used */
-  background-image: url("./img/kunal.png");
+  background-image: url("./img/parallax/white.jpg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
