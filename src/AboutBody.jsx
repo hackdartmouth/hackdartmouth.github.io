@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutBody.css';
+import PropTypes from 'prop-types';
 
 const AboutBody = ({ bodyContent }) => (
   <div className="pContainer">
@@ -9,5 +10,9 @@ const AboutBody = ({ bodyContent }) => (
       </>
     ))}
   </div>
-)
+);
+
+AboutBody.propTypes = {
+  bodyContent: PropTypes.string.isRequired,
+};
 export default AboutBody;
