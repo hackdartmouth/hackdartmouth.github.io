@@ -9,7 +9,7 @@ class UserNav extends Component {
     }
 
     renderNavLinks = () => pages.map(page => (
-      <Nav.Link className={page.visible ? 'navLink' : 'hidden'} href={`#${page.href}`}>{page.navText}</Nav.Link>
+      <Nav.Link key={page.href} className={page.visible ? 'navLink' : 'hidden'} href={`#${page.href}`}>{page.navText}</Nav.Link>
     ))
 
     render = () => {

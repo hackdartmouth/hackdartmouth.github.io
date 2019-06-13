@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import ReactPageScroller from 'react-page-scroller';
 import './App.css';
 import ContentPage from './ContentPage';
@@ -17,12 +17,11 @@ class App extends Component {
 
 
   render = () => (
-    // eslint-disable-next-line no-return-assign
-    <ReactPageScroller ref={c => this.reactPageScroller = c}>
+    <ReactPageScroller>
       <Header />
       <UserNav />
       {pages.map(page => (
-        <div key={page.key}>
+        <Fragment key={page.key}>
           <Seperator id={page.href} />
           <ContentPage
             dictKey={page.key}
@@ -30,7 +29,7 @@ class App extends Component {
             title={page.pageTitle}
             bodyContent={page.bodyContent}
           />
-        </div>
+        </Fragment>
       ))}
     </ReactPageScroller>
   )

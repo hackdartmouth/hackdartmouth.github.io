@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './ContentPage.css';
 import AboutBody from './AboutBody';
 import FAQBody from './FAQBody';
+import RegisterBody from './RegisterBody';
 
 const ContentPage = ({
   title, dictKey, bodyContent, backgroundImg,
@@ -10,6 +11,7 @@ const ContentPage = ({
   const componentDict = {
     AboutBody,
     FAQBody,
+    RegisterBody,
   };
   const BodyComponent = componentDict[dictKey];
   const imgSrc = require(`./img/${backgroundImg}`);

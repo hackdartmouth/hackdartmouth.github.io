@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutBody.css';
 
-const AboutBody = bodyContent => (
+const AboutBody = ({ bodyContent }) => (
   <div className="pContainer">
     {bodyContent.map(p => (
       <>
@@ -9,5 +9,5 @@ const AboutBody = bodyContent => (
       </>
     ))}
   </div>
-);
+)
 export default AboutBody;
