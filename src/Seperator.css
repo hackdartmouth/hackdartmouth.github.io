@@ -1,6 +1,6 @@
 .seperator{
-    height: 58px;
-      /* The image used */
+  height: 58px;
+  /* The image used */
   background-image: url("./img/kunal.png");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
