@@ -23,7 +23,7 @@ const FAQBody = ({ bodyContent: { col1, col2 } }) => (
         ))}
       </Col>
     </Row>
-  </Container>
+  </Container>n
 );
 FAQBody.propTypes = {
   bodyContent: PropTypes.shape({

@@ -6,14 +6,14 @@
 
 .registerTitle{
   color: #C0E6EC;
-  font-size: 4vw;
+  font-size: calc(1em + 3vw);
   font-family: din;
 }
 .registerSubTitle{
-  font-size: 2vw;
+  font-size: calc(.75em + 1vw);
 }
 .registerDetails{
-  font-size: 1.5vw;
+  font-size: calc(.5em + 1vw);
   width: 45%;
   text-align: center;
   margin-left: 27.5%;
@@ -22,6 +22,7 @@
 .registerButton{
   margin-top: 4vw;
   width: 10vw;
-  font-size: 3vw;
+  font-size: calc(.75em + 1vw);
   border-radius: 10px;
+  background-color: gray;
 }

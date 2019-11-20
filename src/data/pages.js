@@ -6,9 +6,9 @@ const pages = [
     backgroundImg: 'about.png',
     pageTitle: 'ABOUT',
     bodyContent: [
-      'We’ve really come a long way since our first hackathon. After four iterations of HackDartmouth and three HackDays, we’re more excited than ever to innovate this year for our FIFTH HackDartmouth!',
-      'Last year, we had our biggest hackathon to date, with ~250 people and 45 projects! This spring, HackDartmouth V will again combine experiential learning with friendly competition. With company-sponsored workshops, mentors, and the chance to develop and refine skills, we’re bringing hundreds of students from across the nation to learn, hack, and create for a weekend.',
-      'The day of the event features twenty-four hours of coding, swag, and amazing prizes! Mark your calendars for April 6-7, 2019 and check out some of the projects from our past hackathons in the meantime!',
+      'We’ve come a long way since our first hackathon. After five iterations of HackDartmouth and four HackDays, we’re more excited than ever to innovate this year for our SIXTH HackDartmouth!',
+      'Last year, we had our biggest hackathon to date, with [OUT OF DATE] ~250 people and 45 projects! This spring, HackDartmouth VI will again combine experiential learning with friendly competition. With company-sponsored workshops, mentors, and the chance to develop and refine skills, we’re bringing hundreds of students from across the nation to learn, hack, and create for a weekend.',
+      'The day of the event features twenty-four hours of coding, swag, and amazing prizes! Mark your calendars for April 18-19, 2020 and check out some of the projects from our past hackathons in the meantime!',
     ],
     key: 'AboutBody',
   },
@@ -29,8 +29,8 @@ const pages = [
           text: 'Any university student (graduate or undergraduate) is welcome to participate! We also admit high school students with parental permission. Anyone and everyone is welcome to come and see what participants are working on, though, so feel free to swing by.',
         },
         {
-          title: 'Do I need experience?',
-          text: "That's completely fine! You'll have plenty of opportunity to join teams and learn from Dartmouth students, students from other schools, and mentors. We’ll also have workshops if you are interested in learning a particular skill. 24 hours is plenty of time to learn something new!",
+          title: 'What kind of experience do I need?',
+          text: "Depends on what you're looking to make! A little background in programming and/or hardware will be helpful, but you'll have plenty of opportunity to join teams and learn from Dartmouth students, students from other schools, and mentors. We’ll also have workshops if you are interested in learning a particular skill. 24 hours is plenty of time to learn something new!",
         },
         {
           title: 'Do I need an idea or a team?',
@@ -138,8 +138,8 @@ const pages = [
     backgroundImg: 'register.png',
     pageTitle: 'REGISTER',
     bodyContent: {
-      event: 'HackDay III',
-      date: 'April 6-7, 2019',
+      event: 'HackDartmouth VI',
+      date: 'April 18-19, 2020',
       location: 'Thayer School of Engineering',
       info: 'Registration for non-Dartmouth students closes March 1. Dartmouth students may register up to the day of the hackathon',
       typeformUrl: 'https://hackdartmouth.typeform.com/to/eCsxvb',

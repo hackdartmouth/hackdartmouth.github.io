@@ -5,15 +5,14 @@
 }
 .colContainer{
     width: 100%;
-    text-align: justify;
+    text-align: left;
 }
 .QATitle{
-    font-size: 1.2vw;
+    font-size: calc(.65em + .75vw);
     margin: 0;
 }
 .QAText{
-    font-size: 1.02vw;
-    margin-bottom: 1.02vw;
+    font-size: calc(.5em + .65vw);
+    margin-bottom: 1em;
     font-weight: 100;
-
 }

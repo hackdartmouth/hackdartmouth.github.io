@@ -10,10 +10,10 @@
     margin-left: 20%;
 }
 .paragraph{ 
-    font-size: 1.7vw;
+    font-size: calc(0.75em + 1vw);
     width: 100%;
     top: 10%;
     color: white;
     text-align: left;
-    margin-bottom: 1.7vw;
+    margin-bottom: 1em;
 }

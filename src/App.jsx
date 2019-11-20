@@ -7,7 +7,7 @@ import Header from './Header';
 import Seperator from './Seperator';
 import UserNav from './UserNav';
 
-configureAnchors({ scrollDuration: 1000 });
+configureAnchors({ scrollDuration: 250 });
 
 
 // import SponsorsBody from './SponsorsBody';

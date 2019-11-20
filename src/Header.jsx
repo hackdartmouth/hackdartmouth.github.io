@@ -2,9 +2,9 @@ import React from 'react';
 import './Header.css';
 
 const headerInfo = {
-  title: 'HackDay III',
-  date: 'October 5, 2019',
-  location: 'Sarner Underground',
+  title: 'HackDartmouth VI',
+  date: 'April 18-19th, 2020',
+  location: 'Thayer School of Engineering',
   backgroundImg: 'header.png',
 };
 
