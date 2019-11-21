@@ -1,18 +1,28 @@
-@font-face {
-    font-family: 'din';
-    src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
-        url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
-}
 .colContainer{
     width: 100%;
     text-align: left;
 }
 .QATitle{
-    font-size: calc(.65em + .75vw);
+    font-size: calc(.65em + .5vw);
     margin: 0;
 }
 .QAText{
-    font-size: calc(.5em + .65vw);
+    font-size: calc(.5em + .5vw);
+    margin-top: 1em;
     margin-bottom: 1em;
     font-weight: 100;
+}
+.Code{
+    font-family: Menlo;
+    margin-bottom: 1em;
+}
+.keyword{
+    color: #61CCC5;
+    font-style: italic;
+}
+.function {
+    color: #A2C746;
+}
+.syntax{
+    color: white;
 }
