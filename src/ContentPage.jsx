@@ -36,6 +36,5 @@ ContentPage.propTypes = {
   dictKey: PropTypes.object.isRequired,
   backgroundImg: PropTypes.string.isRequired,
   hidden: PropTypes.bool.isRequired,
-
 };
 export default ContentPage;

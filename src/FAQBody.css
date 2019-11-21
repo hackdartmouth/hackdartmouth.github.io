@@ -1,6 +1,16 @@
+#QABlock{
+    max-width: 500px;
+    min-width: 200px;
+}
 .colContainer{
-    width: 100%;
+    margin: auto;
+    width: 90%;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 .QATitle{
     font-size: calc(.65em + .5vw);

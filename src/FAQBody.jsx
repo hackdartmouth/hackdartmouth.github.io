@@ -18,14 +18,14 @@ function styleFuncBlock(title, text) {
   )
 }
 
-const FAQBody = ({ bodyContent: { col1, col2 } }) => (
-  <Container className="colContainer">
-    <Row>
+const FAQBody = ({ bodyContent }) => (
+  <div className="colContainer">
+    {/* <Row>
       <Col>
         {col1.map(QA => (
           <div>
-            {styleFuncBlock(QA.title, QA.text)}
-          </div>
+          {styleFuncBlock(QA.title, QA.text)}
+        </div>
         ))}
       </Col>
       <Col>
@@ -35,8 +35,13 @@ const FAQBody = ({ bodyContent: { col1, col2 } }) => (
           </div>
         ))}
       </Col>
-    </Row>
-  </Container>
+    </Row> */}
+    {bodyContent.map(QA => (
+      <div id="QABlock">
+        {styleFuncBlock(QA.title, QA.text)}
+      </div>
+    ))}
+  </div>
 );
 FAQBody.propTypes = {
   bodyContent: PropTypes.shape({
