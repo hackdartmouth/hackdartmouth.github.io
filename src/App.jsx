@@ -18,7 +18,6 @@ const App = () => (
     <UserNav />
     {pages.map(page => (
       <Fragment key={page.key}>
-        <Seperator id={page.href} />
         <ContentPage
           dictKey={page.key}
           backgroundImg={page.backgroundImg}

@@ -1,8 +1,4 @@
-#QABlock{
-    max-width: 500px;
-    min-width: 200px;
-}
-.colContainer{
+.gridContainer{
     margin: auto;
     width: 90%;
     text-align: left;
@@ -10,7 +6,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+#QABlock{
+    flex: 1;
+    margin: 0 1.5em 0 1.5em;
 }
 .QATitle{
     font-size: calc(.65em + .5vw);
