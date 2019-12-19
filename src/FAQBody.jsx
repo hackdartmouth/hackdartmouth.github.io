@@ -19,8 +19,9 @@ function styleFuncBlock(title, text) {
 
 const FAQBody = ({ bodyContent }) => (
   <div>
-    <div className="code">
-      <div className="imports">
+    <div className="lineNumbers"></div>
+    <div className="imports">
+      <div className="code">
         <p>
           <span className="specialKeyword">import </span>
           <span className="specialSyntax">swag</span>
