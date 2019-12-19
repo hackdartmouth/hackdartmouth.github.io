@@ -7,7 +7,7 @@
   width: 100%;
   text-align: center;
   color: #f3f3f3;
-  font-size: 2vw;
+  font-size: calc(1em + 1vw);
 }
 .sponsorContainer{
   width: 60%;

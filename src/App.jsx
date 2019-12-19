@@ -7,7 +7,7 @@ import Header from './Header';
 import Seperator from './Seperator';
 import UserNav from './UserNav';
 
-configureAnchors({ scrollDuration: 1000 });
+configureAnchors({ scrollDuration: 250 });
 
 
 // import SponsorsBody from './SponsorsBody';
@@ -18,7 +18,6 @@ const App = () => (
     <UserNav />
     {pages.map(page => (
       <Fragment key={page.key}>
-        <Seperator id={page.href} />
         <ContentPage
           dictKey={page.key}
           backgroundImg={page.backgroundImg}

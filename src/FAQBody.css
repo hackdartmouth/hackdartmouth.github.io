@@ -1,19 +1,65 @@
-@font-face {
-    font-family: 'din';
-    src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
-        url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
+.gridContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    ;
 }
-.colContainer{
-    width: 100%;
-    text-align: justify;
+#QABlock{
+    margin: 0 1.5rem 0 1.5rem;
+    flex-grow: 1;
+    width: calc((90% - 3rem) / 1);
+    text-align: left;
+}
+@media screen and (min-width: 600px) {
+    #QABlock {
+        width: calc((90% - 3rem) / 2);
+    }
+}
+@media screen and (min-width: 900px) {
+    #QABlock {
+        width: calc((90% - 3rem) / 3);
+    }
+}
+@media screen and (min-width: 1200px) {
+    #QABlock {
+        width: calc((90% - 3rem) / 4);
+    }
 }
 .QATitle{
-    font-size: 1.2vw;
+    font-size: calc(.65em + .5vw);
     margin: 0;
 }
 .QAText{
-    font-size: 1.02vw;
-    margin-bottom: 1.02vw;
+    font-size: calc(.5em + .5vw);
+    margin-top: 1em;
+    margin-bottom: 1em;
     font-weight: 100;
-
+}
+.code{
+    font-family: Menlo;
+    margin-bottom: 1em;
+}
+.imports{
+    font-size: calc(.5em + .5vw);
+    width: 90%;
+    margin: auto;
+    padding-left: 1.5rem;
+    text-align: left;
+}
+.keyword{
+    color: #61CCC5;
+    font-style: italic;
+}
+.specialKeyword{
+    color: #D35473;
+}
+.function {
+    color: #A2C746;
+}
+.syntax{
+    color: white;
+}
+.specialSyntax{
+    color: #E6DC83;
 }
