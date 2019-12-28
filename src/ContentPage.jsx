@@ -13,7 +13,7 @@ function defaultTitle(title) {
 }
 
 const ContentPage = ({
-  title, dictKey, bodyContent, backgroundImg, hidden
+  title, dictKey, bodyContent, backgroundImg, hidden, titleColor
 }) => {
   const componentDict = {
     AboutBody,
@@ -29,7 +29,7 @@ const ContentPage = ({
     <div className="pageContainer">
       <img className="backgroundImg" src={imgSrc} alt="Background" />
       <div className="pageText">
-        <p className="pageTitle">{title}</p>
+        <p className="pageTitle" style={{color: titleColor }}>{title}</p>
         <BodyComponent bodyContent={bodyContent} />
       </div>
     </div>

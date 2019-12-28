@@ -3,8 +3,9 @@ const pages = [
     visible: true,
     navText: 'ABOUT',
     href: 'about',
-    backgroundImg: 'about.png',
+    backgroundImg: 'about_white.png',
     pageTitle: 'ABOUT',
+    titleColor: '#50514c',
     bodyContent: [
       'We’ve come a long way since our first hackathon. After five iterations of HackDartmouth and four HackDays, we’re more excited than ever to innovate this year for our SIXTH HackDartmouth!',
       'Last year, we had our biggest hackathon to date, with [OUT OF DATE] ~250 people and 45 projects! This spring, HackDartmouth VI will again combine experiential learning with friendly competition. With company-sponsored workshops, mentors, and the chance to develop and refine skills, we’re bringing hundreds of students from across the nation to learn, hack, and create for a weekend.',
@@ -18,6 +19,7 @@ const pages = [
     href: 'faq',
     backgroundImg: 'faq.png',
     pageTitle: 'FAQ',
+    titleColor: '#ffffff',
     bodyContent: [
       {
         title: 'What is a hackathon?',
@@ -72,6 +74,7 @@ const pages = [
     href: 'sponsors',
     backgroundImg: 'sponsors_green_long.png',
     pageTitle: 'SPONSORS',
+    titleColor: '#ffffff',
     bodyContent: [
       {
         sponsorTier: 'SPROUT',
@@ -133,6 +136,7 @@ const pages = [
     href: 'register',
     backgroundImg: 'register.png',
     pageTitle: 'REGISTER',
+    titleColor: '#ffffff',
     bodyContent: {
       event: 'HackDartmouth VI',
       date: 'April 18-19, 2020',

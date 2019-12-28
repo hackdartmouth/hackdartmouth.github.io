@@ -22,6 +22,7 @@ const App = () => (
           dictKey={page.key}
           backgroundImg={page.backgroundImg}
           title={page.pageTitle}
+          titleColor={page.titleColor}
           bodyContent={page.bodyContent}
         />
       </Fragment>
