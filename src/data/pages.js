@@ -70,11 +70,11 @@ const pages = [
     visible: true,
     navText: 'SPONSORS',
     href: 'sponsors',
-    backgroundImg: 'sponsors_long.png',
+    backgroundImg: 'sponsors_green_long.png',
     pageTitle: 'SPONSORS',
     bodyContent: [
       {
-        sponsorTier: 'sprout',
+        sponsorTier: 'SPROUT',
         amount: '$500',
         size: 10,
         sponsors: [
@@ -85,8 +85,8 @@ const pages = [
         ],
       },
       {
-        sponsorTier: 'shrub',
-        amount: '$1k',
+        sponsorTier: 'SHRUB',
+        amount: '$1K',
         size: 10,
         sponsors: [
           'facebook.png',
@@ -95,8 +95,8 @@ const pages = [
         ],
       },
       {
-        sponsorTier: 'tree',
-        amount: '$2.5k',
+        sponsorTier: 'TREE',
+        amount: '$2.5K',
         size: 15,
         sponsors: [
           'facebook.png',
@@ -104,8 +104,8 @@ const pages = [
         ],
       },
       {
-        sponsorTier: 'redwood',
-        amount: '$5k',
+        sponsorTier: 'REDWOOD',
+        amount: '$5K',
         size: 20,
         sponsors: [
           'facebook.png',
@@ -114,8 +114,8 @@ const pages = [
         ],
       },
       {
-        sponsorTier: 'lone pine',
-        amount: '$10k',
+        sponsorTier: 'LONE PINE',
+        amount: '$10K',
         size: 25,
         sponsors: [
           'facebook.png',

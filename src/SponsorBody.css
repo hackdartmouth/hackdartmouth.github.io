@@ -1,6 +1,7 @@
 .divider{
   width: 100%;
-  border-color: #a3a3a3;
+  border-color: #f3f3f3;
+  border-top-width: 2px;
   margin: 0;
 }
 .tierTitle{
@@ -13,6 +14,10 @@
   width: 60%;
 }
 .sponsorImg{
-  padding: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0;
+}
+.sponsorContainer{
+  background-color: #72B9BC;
 }

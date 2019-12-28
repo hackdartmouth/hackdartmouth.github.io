@@ -4,7 +4,6 @@ import { Row, Col, Container } from 'react-bootstrap';
 import './SponsorBody.css';
 
 const SponsorBody = ({ bodyContent }) => {
-  console.log(bodyContent);
   return (
     <Container className="sponsorContainer">
       {
@@ -15,9 +14,8 @@ const SponsorBody = ({ bodyContent }) => {
             {
               tier.sponsors.map(company => (
                 <Col><img className="sponsorImg" src={require(`./img/sponsors/${company}`)} style={{width: `${tier.size}vw`}} alt={`company: ${tier.amount}`} /> </Col>
-              ))
-            }
-            
+              )) 
+            }           
           </Row>
         ))
       }
