@@ -138,7 +138,7 @@ const pages = [
       date: 'April 18-19, 2020',
       location: 'Thayer School of Engineering',
       info: 'Registration for non-Dartmouth students closes March 1. Dartmouth students may register up to the day of the hackathon',
-      typeformUrl: 'https://hackdartmouth.typeform.com/to/eCsxvb',
+      typeformUrl: 'https://hackdartmouth.typeform.com/to/foXT8j',
     },
     key: 'RegisterBody',
   },
