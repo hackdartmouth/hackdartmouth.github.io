@@ -7,9 +7,10 @@
     position: relative;
     padding: 0;
     width: 100%;
+    display: inline-block;
 }
 .pageText{
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 3vw;
     text-align: center;

@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 const AboutBody = ({ bodyContent }) => (
   <div className="pContainer">
     {bodyContent.map(p => (
-      <>
+      <div>
         <p className="paragraph">{p}</p>
-      </>
+      </div>
     ))}
   </div>
 );

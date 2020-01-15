@@ -24,21 +24,19 @@ const ContentPage = ({
     SponsorBody,
     ScheduleBody
   };
-  // const TitleComponent = componentDict[dictKey];
   const BodyComponent = componentDict[dictKey];
   const imgSrc = require(`./img/pages/${backgroundImg}`);
 
   return (
     <Element name={href} className="element">
-      <div className="pageContainer">
-        <img className="backgroundImg" src={imgSrc} alt="Background" />
+      <div className="pageContainer" style={{ backgroundImage: 'url(' + imgSrc + ')'}}>
+        {/* <img className="backgroundImg" src={imgSrc} alt="Background" /> */}
         <div className="pageText">
-          <p className="pageTitle" style={{color: titleColor }}>{title}</p>
+          <p className="pageTitle" style={{ color: titleColor }}>{title}</p>
           <BodyComponent bodyContent={bodyContent} />
         </div>
       </div>
     </Element>
-    
   );
 };
 
