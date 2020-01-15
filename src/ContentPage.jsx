@@ -5,6 +5,8 @@ import AboutBody from './AboutBody';
 import FAQBody from './FAQBody';
 import RegisterBody from './RegisterBody';
 import SponsorBody from './SponsorBody';
+import ScheduleBody from './ScheduleBody';
+import { Link, DirectLink, Element , Events, animateScroll, scrollSpy, scroller } from 'react-scroll'
 
 function defaultTitle(title) {
   return (
@@ -13,26 +15,30 @@ function defaultTitle(title) {
 }
 
 const ContentPage = ({
-  title, dictKey, bodyContent, backgroundImg, hidden, titleColor
+  title, dictKey, bodyContent, backgroundImg, hidden, titleColor, href
 }) => {
   const componentDict = {
     AboutBody,
     FAQBody,
     RegisterBody,
     SponsorBody,
+    ScheduleBody
   };
   // const TitleComponent = componentDict[dictKey];
   const BodyComponent = componentDict[dictKey];
   const imgSrc = require(`./img/pages/${backgroundImg}`);
 
   return (
-    <div className="pageContainer">
-      <img className="backgroundImg" src={imgSrc} alt="Background" />
-      <div className="pageText">
-        <p className="pageTitle" style={{color: titleColor }}>{title}</p>
-        <BodyComponent bodyContent={bodyContent} />
+    <Element name={href} className="element">
+      <div className="pageContainer">
+        <img className="backgroundImg" src={imgSrc} alt="Background" />
+        <div className="pageText">
+          <p className="pageTitle" style={{color: titleColor }}>{title}</p>
+          <BodyComponent bodyContent={bodyContent} />
+        </div>
       </div>
-    </div>
+    </Element>
+    
   );
 };
 

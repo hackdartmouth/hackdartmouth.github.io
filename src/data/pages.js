@@ -70,6 +70,51 @@ const pages = [
   },
   {
     visible: true,
+    navText: 'SCHEDULE',
+    href: 'schedule',
+    backgroundImg: 'about_white.png',
+    pageTitle: 'SCHEDULE',
+    titleColor: '#028A0F',
+    bodyContent: [
+      {
+        DayOfWeek: "Saturday",
+        events: [
+          {
+            time: "9AM",
+            event: "Prizes!"
+          },
+          {
+            time: "12PM",
+            event: "Lunch"
+          },
+          {
+            time: "3AM",
+            event: "Leave"
+          }
+        ]
+      },
+      {
+        DayOfWeek: "Sunday",
+        events: [
+          {
+            time: "7AM",
+            event: "Registration"
+          },
+          {
+            time: "8AM",
+            event: "Code!"
+          },
+          {
+            time: "9AM",
+            event: "Prizes!"
+          }
+        ]
+      }
+    ],
+    key: 'ScheduleBody',
+  },
+  {
+    visible: true,
     navText: 'SPONSORS',
     href: 'sponsors',
     backgroundImg: 'sponsors_green_long.png',

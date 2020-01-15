@@ -24,6 +24,7 @@ const App = () => (
           title={page.pageTitle}
           titleColor={page.titleColor}
           bodyContent={page.bodyContent}
+          href={page.href}
         />
       </Fragment>
     ))}
