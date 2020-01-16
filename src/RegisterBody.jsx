@@ -1,13 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './RegisterBody.css';
-import { Button } from 'react-bootstrap'
-import * as typeformEmbed from "@typeform/embed"
+import { Button } from 'react-bootstrap';
+import * as typeformEmbed from "@typeform/embed";
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 class RegisterBody extends React.Component {
   constructor(props) {
     super(props);
     this.openForm = this.openForm.bind(this);
+
+    this.form = null;
+  }
+
+  componentDidMount() {
+    if (this.form) {
+      typeformEmbed.makeWidget(this.form, 'https://hackdartmouth.typeform.com/to/foXT8j', {
+        hideFooter: true,
+        hideHeaders: true,
+        opacity: 0
+      });
+    }
   }
 
   openForm() {
@@ -23,18 +36,20 @@ class RegisterBody extends React.Component {
       }
     )
   }
-  
+
   render() {
     return (
       <div>
         <h2 className="registerTitle">{`Register for ${this.props.bodyContent.event}`}</h2>
         <h5 className="registerSubTitle">{`${this.props.bodyContent.date} | ${this.props.bodyContent.location}`}</h5>
         <p className="registerDetails">{this.props.bodyContent.info}</p>
-        <Button variant="outline-light" className="registerButton" onClick={this.openForm}>
+        <div ref={(form) => this.form = form} style={{width: '100%', height: '350px', marginTop: '2.5em'}} />
+        {/* <Button variant="outline-light" className="registerButton" onClick={this.openForm}>
           Join
-        </Button>
+        </Button> */}
       </div>
     );
+
   }
 }
 RegisterBody.propTypes = {
