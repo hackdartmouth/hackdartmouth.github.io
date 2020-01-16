@@ -7,9 +7,8 @@ const pages = [
     pageTitle: 'ABOUT',
     titleColor: '#50514c',
     bodyContent: [
-      'We’ve come a long way since our first hackathon. After five iterations of HackDartmouth and four HackDays, we’re more excited than ever to innovate this year for our SIXTH HackDartmouth!',
-      'Last year, we had our biggest hackathon to date, with [OUT OF DATE] ~250 people and 45 projects! This spring, HackDartmouth VI will again combine experiential learning with friendly competition. With company-sponsored workshops, mentors, and the chance to develop and refine skills, we’re bringing hundreds of students from across the nation to learn, hack, and create for a weekend.',
-      'The day of the event features twenty-four hours of coding, swag, and amazing prizes! Mark your calendars for April 18-19, 2020 and check out some of the projects from our past hackathons in the meantime!',
+      'Welcome to HackDartmouth 2020! Join us for Dartmouth’s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The day of the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to checkout out some our past projects (https://hackdartmouthv.devpost.com/submissions). <= plz make a tag and dangerously set html',
+      'Hackathon Countdown',
     ],
     key: 'AboutBody',
   },
@@ -23,7 +22,7 @@ const pages = [
     bodyContent: [
       {
         title: 'What is a hackathon?',
-        text: ' A hackathon is an event in which groups of hackers divided into teams develop a product. Hundreds of programmers get together to build something from scratch, be it a website, app, or some other product of their imagination. There will be lots of food and prizes, and opportunities to work with representatives from various companies.',
+        text: 'A hackathon is an event in which groups of hackers divided into teams develop a product. Hundreds of programmers get together to build something from scratch, be it a website, app, or some other product of their imagination. There will be lots of food and prizes, and opportunities to work with representatives from various companies.',
       },
       {
         title: 'Who can attend?',
@@ -54,8 +53,8 @@ const pages = [
         text: 'A panel of judges will decide on the winning hacks based on criteria of creativity, usefulness, technical difficulty, and form. The top prizes are TBA. Previous prizes have included drones, Apple watches, speakers, TVs, and other awesome tech.',
       },
       {
-        title: 'What if I am not a student?',
-        text: 'Interested in being a mentor or sponsor? Contact us at sponsors@hackdartmouth.io!',
+        title: 'How can I support the hackathon?',
+        text: 'If you are interested in being a mentor or sponsor, contact us at sponsors@hackdartmouth.io!',
       },
       {
         title: 'When is the deadline to register?',
@@ -63,7 +62,7 @@ const pages = [
       },
       {
         title: 'Other questions?',
-        text: " Shoot us an email at questions@hackdartmouth.io and we'll get back to you as soon as we can!",
+        text: 'Shoot us an email at questions@hackdartmouth.io and we’ll get back to you as soon as we can!',
       },
     ],
     key: 'FAQBody',
@@ -77,39 +76,51 @@ const pages = [
     titleColor: '#028A0F',
     bodyContent: [
       {
-        DayOfWeek: "Saturday",
+        DayOfWeek: 'Saturday',
         events: [
           {
-            time: "9AM",
-            event: "Prizes!"
+            time: '9:00 AM',
+            event: 'Check-in',
           },
           {
-            time: "12PM",
-            event: "Lunch"
+            time: '11:00 AM',
+            event: 'Opening Ceremony',
           },
           {
-            time: "3AM",
-            event: "Leave"
-          }
-        ]
+            time: '12:00 PM',
+            event: 'Hacking begins; Lunch',
+          },
+          {
+            time: '6:30 PM',
+            event: 'Dinner',
+          },
+        ],
       },
       {
-        DayOfWeek: "Sunday",
+        DayOfWeek: 'Sunday',
         events: [
           {
-            time: "7AM",
-            event: "Registration"
+            time: '7:00 AM',
+            event: 'Breakfast',
           },
           {
-            time: "8AM",
-            event: "Code!"
+            time: '10:30 AM',
+            event: 'Hacking ends; Submissions due',
           },
           {
-            time: "9AM",
-            event: "Prizes!"
-          }
-        ]
-      }
+            time: '11:30 AM',
+            event: 'Lunch',
+          },
+          {
+            time: '12:30 PM',
+            event: 'Judging begins',
+          },
+          {
+            time: '2:00 PM',
+            event: 'Final presentations; Closing ceremony',
+          },
+        ],
+      },
     ],
     key: 'ScheduleBody',
   },
@@ -186,7 +197,7 @@ const pages = [
       event: 'HackDartmouth VI',
       date: 'April 18-19, 2020',
       location: 'Thayer School of Engineering',
-      info: 'Registration for non-Dartmouth students closes March 1. Dartmouth students may register up to the day of the hackathon',
+      info: 'Registration for non-Dartmouth students closes March 1st. Dartmouth students may register up to the day of the hackathon',
       typeformUrl: 'https://hackdartmouth.typeform.com/to/foXT8j',
     },
     key: 'RegisterBody',
