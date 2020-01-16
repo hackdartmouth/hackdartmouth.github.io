@@ -15,7 +15,7 @@ function defaultTitle(title) {
 }
 
 const ContentPage = ({
-  title, dictKey, bodyContent, backgroundImg, hidden, titleColor, href
+  title, dictKey, bodyContent, sectionColor, hidden, titleColor, href
 }) => {
   const componentDict = {
     AboutBody,
@@ -25,13 +25,11 @@ const ContentPage = ({
     ScheduleBody
   };
   const BodyComponent = componentDict[dictKey];
-  const imgSrc = require(`./img/pages/${backgroundImg}`);
 
   return (
     <Element name={href} className="element">
-      <div className="pageContainer" style={{ backgroundImage: 'url(' + imgSrc + ')'}}>
-        {/* <img className="backgroundImg" src={imgSrc} alt="Background" /> */}
-        <div className="pageText">
+      <div className="pageContainer" style={{ backgroundColor: sectionColor }}>
+        <div className="pageContent">
           <p className="pageTitle" style={{ color: titleColor }}>{title}</p>
           <BodyComponent bodyContent={bodyContent} />
         </div>
@@ -45,7 +43,7 @@ ContentPage.propTypes = {
   bodyContent: PropTypes.string.isRequired,
   // eslint-disable-next-line react/forbid-prop-types
   dictKey: PropTypes.object.isRequired,
-  backgroundImg: PropTypes.string.isRequired,
+  sectionColor: PropTypes.string.isRequired,
   hidden: PropTypes.bool.isRequired,
 };
 export default ContentPage;

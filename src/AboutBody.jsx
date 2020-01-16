@@ -3,7 +3,7 @@ import './AboutBody.css';
 import PropTypes from 'prop-types';
 
 const AboutBody = ({ bodyContent }) => (
-  <div className="pContainer">
+  <div className="aboutContainer">
     {bodyContent.map(p => (
       <div>
         <p className="paragraph">{p}</p>

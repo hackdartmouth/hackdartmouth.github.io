@@ -2,7 +2,7 @@ import React from 'react';
 import './ScheduleBody.css';
 import PropTypes from 'prop-types';
 
-const SheduleBody = ({ bodyContent }) => (
+const ScheduleBody = ({ bodyContent }) => (
   <>
   {
     bodyContent.map(day => (
@@ -23,8 +23,8 @@ const SheduleBody = ({ bodyContent }) => (
   
 );
 
-SheduleBody.propTypes = {
+ScheduleBody.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   bodyContent: PropTypes.array.isRequired,
 };
-export default SheduleBody;
+export default ScheduleBody;

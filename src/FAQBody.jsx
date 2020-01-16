@@ -39,7 +39,7 @@ const FAQBody = ({ bodyContent }) => (
     </div>
     <div className="gridContainer">
       {bodyContent.map(QA => (
-        <div id="QABlock">
+        <div className="QABlock">
           {styleFuncBlock(QA.title, QA.text)}
         </div>
       ))}

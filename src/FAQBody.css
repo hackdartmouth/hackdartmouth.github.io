@@ -1,36 +1,66 @@
-.gridContainer{
-    width: 90%;
+.gridContainer {
+    width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
-#QABlock{
-    margin: 0 1.5rem 0 1.5rem;
+.QABlock{
     flex-grow: 1;
-    width: calc((90% - 3rem) / 1);
+    width: 90%;
     text-align: left;
 }
-@media screen and (min-width: 600px) {
-    #QABlock {
-        width: calc((90% - 3rem) / 2);
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .QABlock {
+        width: calc((90% - 3em) / 2);
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    .QABlock:nth-child(2n) {
+        margin-right: 0;
+    }
+    .QABlock:nth-child(2n - 1) {
+        margin-left: 0;
+    }
+    .QABlock:nth-last-child(1) {
+        margin-right: 0;
     }
 }
-@media screen and (min-width: 900px) {
-    #QABlock {
-        width: calc((90% - 3rem) / 3);
+@media screen and (min-width: 900px) and (max-width: 1999px) {
+    .QABlock {
+        width: calc((90% - 6em) / 3);
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    .QABlock:nth-child(3n) {
+        margin-right: 0;
+    }
+    .QABlock:nth-child(3n - 2) {
+        margin-left: 0;
+    }
+    .QABlock:nth-last-child(1) {
+        margin-right: 0;
     }
 }
-@media screen and (min-width: 1200px) {
-    #QABlock {
-        width: calc((90% - 3rem) / 4);
+@media screen and (min-width: 2000px) {
+    .QABlock {
+        width: calc((90% - 9em) / 4);
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    .QABlock:nth-child(4n) {
+        margin-right: 0;
+    }
+    .QABlock:nth-child(4n - 3) {
+        margin-left: 0;
+    }
+    .QABlock:nth-last-child(1) {
+        margin-right: 0;
     }
 }
 .QATitle{
     font-size: calc(.65em + .5vw);
+    overflow-wrap: break-word;
     margin: 0;
 }
 .QAText{
-    font-size: calc(.5em + .5vw);
+    font-size: calc(.6em + .5vw);
     margin-top: 1em;
     margin-bottom: 1em;
     font-weight: 100;
@@ -40,10 +70,9 @@
     margin-bottom: 1em;
 }
 .imports{
-    font-size: calc(.5em + .5vw);
-    width: 90%;
+    font-size: calc(.6em + .5vw);
+    width: 100%;
     margin: auto;
-    padding-left: 1.5rem;
     text-align: left;
 }
 .keyword{

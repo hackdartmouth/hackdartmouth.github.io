@@ -3,7 +3,7 @@ const pages = [
     visible: true,
     navText: 'ABOUT',
     href: 'about',
-    backgroundImg: 'about_white.png',
+    sectionColor: '#ffffff',
     pageTitle: 'ABOUT',
     titleColor: '#50514c',
     bodyContent: [
@@ -17,7 +17,7 @@ const pages = [
     visible: true,
     navText: 'FAQ',
     href: 'faq',
-    backgroundImg: 'faq.png',
+    sectionColor: '#292A25',
     pageTitle: 'FAQ',
     titleColor: '#ffffff',
     bodyContent: [
@@ -72,7 +72,7 @@ const pages = [
     visible: true,
     navText: 'SCHEDULE',
     href: 'schedule',
-    backgroundImg: 'about_white.png',
+    sectionColor: '#ffffff',
     pageTitle: 'SCHEDULE',
     titleColor: '#028A0F',
     bodyContent: [
@@ -117,7 +117,7 @@ const pages = [
     visible: true,
     navText: 'SPONSORS',
     href: 'sponsors',
-    backgroundImg: 'sponsors_green_long.png',
+    sectionColor: '#72B9BC',
     pageTitle: 'SPONSORS',
     titleColor: '#ffffff',
     bodyContent: [
@@ -179,7 +179,7 @@ const pages = [
     visible: true,
     navText: 'REGISTER',
     href: 'register',
-    backgroundImg: 'register.png',
+    sectionColor: '#50514C',
     pageTitle: 'REGISTER',
     titleColor: '#ffffff',
     bodyContent: {

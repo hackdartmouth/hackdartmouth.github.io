@@ -14,9 +14,9 @@
 }
 .registerDetails{
   font-size: calc(.5em + 1vw);
-  width: 45%;
+  width: 80%;
   text-align: center;
-  margin-left: 27.5%;
+  margin: auto;
   margin-top: 4vw;
 }
 .registerButton{

@@ -5,24 +5,24 @@
 }
 .pageContainer {
     position: relative;
-    padding: 0;
     width: 100%;
     display: inline-block;
 }
-.pageText{
+.pageContent{
     position: relative;
-    width: 100%;
-    top: 3vw;
-    text-align: center;
+    width: 80%;
+    margin: 2vw auto 3vw auto;
     color: white;
+    text-align: center;
 }
 .pageTitle{
     font-size: calc(1em + 2vw);
     font-family: din;
     margin-bottom: 2vw;
+    text-align: center;
 }
-.pageBody{
-    font-size: calc(.5em + 1vw);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 55%;
+@media (max-aspect-ratio: 1/1) {
+    .pageContent {
+        width: 90%;
+    }
 }

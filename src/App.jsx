@@ -20,7 +20,7 @@ const App = () => (
       <Fragment key={page.key}>
         <ContentPage
           dictKey={page.key}
-          backgroundImg={page.backgroundImg}
+          sectionColor={page.sectionColor}
           title={page.pageTitle}
           titleColor={page.titleColor}
           bodyContent={page.bodyContent}
