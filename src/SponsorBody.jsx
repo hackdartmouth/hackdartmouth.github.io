@@ -9,7 +9,7 @@ const SponsorBody = ({ bodyContent }) => {
       {
         bodyContent.slice(0).reverse().map(tier => (
           <Row>
-            <h3 className="tierTitle">{`${tier.sponsorTier} { ${tier.amount} }`}</h3>
+            <h3 className="tierTitle">{`{ ${tier.sponsorTier} }`}</h3>
             <hr className="divider" />
             {
               tier.sponsors.map(company => (

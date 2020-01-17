@@ -8,22 +8,22 @@
     margin-bottom: 10px;
     width: 60%;
     margin-left: 20%;
-    background-color: rgb(179,225,172);
     border-radius: 1%;
 }
 .scheduleDay{ 
     font-size: calc(0.65em + .9vw);
     width: 100%;
     top: 10%;
-    color: black;
+    color: #5f936a;
     text-align: left;
     margin-bottom: .5em;
+    font-weight: bold;
 }
 .scheduleEvent{ 
     font-size: calc(0.55em + .8vw);
     width: 100%;
     top: 10%;
-    color: #777971;
+    color: #072a24;
     text-align: left;
     margin-bottom: .5em;
 }

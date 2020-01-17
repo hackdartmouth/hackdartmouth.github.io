@@ -1,8 +1,5 @@
-@font-face {
-    font-family: 'din';
-    src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
-        url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
-}
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic,medium');
+
 .headerContainer {
     position: relative;
     padding: 0;
@@ -21,13 +18,14 @@ p{
     margin: 0;
 }
 .title{
-    color: #C0E6EC;
+    color: #ffffff;
     font-size: calc(1em + 6vw);
-    font-family: din;
+    font-family: "Poppins";
+    font-weight: 500;
 }
 .info{
-    color: #EBF5F4;
+    color: #C2Cb81;
     font-size: calc(.75em + 2vw);
-    font-family: din;
+    font-family: "Poppins";
     margin-left: .5vw;
 } 

@@ -3,6 +3,8 @@
     src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
         url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
 }
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic,medium|Roboto:regular,medium');
+
 .pageContainer {
     position: relative;
     width: 100%;
@@ -17,7 +19,8 @@
 }
 .pageTitle{
     font-size: calc(1em + 2vw);
-    font-family: din;
+    font-family: "Poppins";
+    font-weight: 600;
     margin-bottom: 2vw;
     text-align: center;
 }

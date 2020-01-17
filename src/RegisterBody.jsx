@@ -40,7 +40,7 @@ class RegisterBody extends React.Component {
   render() {
     return (
       <div>
-        <h2 className="registerTitle">{`Register for ${this.props.bodyContent.event}`}</h2>
+        {/*<h2 className="registerTitle">{`Register for ${this.props.bodyContent.event}`}</h2>*/}
         <h5 className="registerSubTitle">{`${this.props.bodyContent.date} | ${this.props.bodyContent.location}`}</h5>
         <p className="registerDetails">{this.props.bodyContent.info}</p>
         <div ref={(form) => this.form = form} style={{width: '100%', height: '350px', marginTop: '2.5em'}} />

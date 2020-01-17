@@ -5,7 +5,7 @@ const pages = [
     href: 'about',
     sectionColor: '#ffffff',
     pageTitle: 'ABOUT',
-    titleColor: '#50514c',
+    titleColor: '#5f936a',
     bodyContent: [
       'Welcome to HackDartmouth 2020! Join us for Dartmouth’s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The day of the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to checkout out some our past projects (https://hackdartmouthv.devpost.com/submissions). <= plz make a tag and dangerously set html',
       'Hackathon Countdown',
@@ -16,7 +16,7 @@ const pages = [
     visible: true,
     navText: 'FAQ',
     href: 'faq',
-    sectionColor: '#292A25',
+    sectionColor: '#024b40',
     pageTitle: 'FAQ',
     titleColor: '#ffffff',
     bodyContent: [
@@ -71,9 +71,9 @@ const pages = [
     visible: true,
     navText: 'SCHEDULE',
     href: 'schedule',
-    sectionColor: '#ffffff',
+    sectionColor: '#cde3db',
     pageTitle: 'SCHEDULE',
-    titleColor: '#028A0F',
+    titleColor: '#5f936a',
     bodyContent: [
       {
         DayOfWeek: 'Saturday',
@@ -128,7 +128,7 @@ const pages = [
     visible: true,
     navText: 'SPONSORS',
     href: 'sponsors',
-    sectionColor: '#72B9BC',
+    sectionColor: '#9BCFB8',
     pageTitle: 'SPONSORS',
     titleColor: '#ffffff',
     bodyContent: [
@@ -190,8 +190,8 @@ const pages = [
     visible: true,
     navText: 'REGISTER',
     href: 'register',
-    sectionColor: '#50514C',
-    pageTitle: 'REGISTER',
+    sectionColor: '#5f936a',
+    pageTitle: 'Register for HackDartmouth VI',
     titleColor: '#ffffff',
     bodyContent: {
       event: 'HackDartmouth VI',
