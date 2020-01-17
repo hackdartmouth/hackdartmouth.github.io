@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './RegisterBody.css';
-import { Button } from 'react-bootstrap';
 import * as typeformEmbed from "@typeform/embed";
-import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 class RegisterBody extends React.Component {
   constructor(props) {
@@ -44,9 +42,6 @@ class RegisterBody extends React.Component {
         <h5 className="registerSubTitle">{`${this.props.bodyContent.date} | ${this.props.bodyContent.location}`}</h5>
         <p className="registerDetails">{this.props.bodyContent.info}</p>
         <div ref={(form) => this.form = form} style={{width: '100%', height: '350px', marginTop: '2.5em'}} />
-        {/* <Button variant="outline-light" className="registerButton" onClick={this.openForm}>
-          Join
-        </Button> */}
       </div>
     );
 
