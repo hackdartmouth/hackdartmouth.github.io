@@ -1,13 +1,14 @@
 import React from 'react';
 import './AboutBody.css';
 import PropTypes from 'prop-types';
+import Linkify from 'react-linkify';
 
 const AboutBody = ({ bodyContent }) => (
   <div className="aboutContainer">
     {bodyContent.map(p => (
-      <div>
+      <Linkify>
         <p className="paragraph">{p}</p>
-      </div>
+      </Linkify>
     ))}
   </div>
 );

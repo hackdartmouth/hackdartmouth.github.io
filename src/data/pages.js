@@ -7,7 +7,7 @@ const pages = [
     pageTitle: 'ABOUT',
     titleColor: '#5f936a',
     bodyContent: [
-      'Welcome to HackDartmouth 2020! Join us for Dartmouth’s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The day of the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to checkout out some our past projects (https://hackdartmouthv.devpost.com/submissions). <= plz make a tag and dangerously set html',
+      'Welcome to HackDartmouth 2020! Join us for Dartmouth’s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The day of the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to checkout out some our past projects (https://hackdartmouthv.devpost.com/submissions).',
       'Hackathon Countdown',
     ],
     key: 'AboutBody',
