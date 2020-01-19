@@ -3,8 +3,8 @@ import './PipeBoi.css';
 import PropTypes from 'prop-types';
 import Linkify from 'react-linkify';
 
-const PipeBoi = ({ top, left, flipped}) => (
-    <img src={require("./img/pages/pipeBoi.svg")} className={`pipe ${top? "top":"bottom"} ${left? "left":"right"} ${flipped? (top?"flipped":"flippedBoth"):""}`}/>
+const PipeBoi = ({ top, left, flipped, darkBackground}) => (
+    <img src={require("./img/pages/pipeBoi.svg")} className={`pipe ${top? "top":"bottom"} ${left? "left":"right"} ${flipped? (top?"flipped":"flippedBoth"):""} ${darkBackground?"darkBackground":""}`}/>
 );
 
 PipeBoi.propTypes = {

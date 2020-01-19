@@ -30,3 +30,6 @@
     -o-transform: scale(-1);
     transform: scale(-1);
 }
+.darkBackground{
+    filter: invert(100%);
+}
