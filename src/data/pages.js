@@ -6,10 +6,12 @@ const pages = [
     sectionColor: '#ffffff',
     pageTitle: 'ABOUT',
     titleColor: '#5f936a',
-    bodyContent: [
-      'Welcome to HackDartmouth 2020! Join us for Dartmouth’s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The day of the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to checkout out some our past projects (https://hackdartmouthv.devpost.com/submissions).',
-      'Hackathon Countdown',
-    ],
+    bodyContent: {
+      blurb: [
+        'Welcome to HackDartmouth 2020! Join us for Dartmouth’s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The day of the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to checkout out some our [past projects](https://hackdartmouthv.devpost.com/submissions).',
+      ],
+      upcomingDate: '18 Apr 2020 07:30:00 EST',
+    },
     key: 'AboutBody',
   },
   {
@@ -54,7 +56,7 @@ const pages = [
       },
       {
         title: 'How can I support the hackathon?',
-        text: 'If you are interested in being a mentor or sponsor, contact us at sponsors@hackdartmouth.io!',
+        text: 'If you are interested in being a mentor or sponsor, contact us [here](sponsors@hackdartmouth.io)!',
       },
       {
         title: 'When is the deadline to register?',
@@ -62,7 +64,7 @@ const pages = [
       },
       {
         title: 'Other questions?',
-        text: 'Shoot us an email at questions@hackdartmouth.io and we’ll get back to you as soon as we can!',
+        text: 'Shoot us an [email](questions@hackdartmouth.io) and we’ll get back to you as soon as we can!',
       },
     ],
     key: 'FAQBody',

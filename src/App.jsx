@@ -4,7 +4,6 @@ import { configureAnchors } from 'react-scrollable-anchor';
 import ContentPage from './ContentPage';
 import pages from './data/pages';
 import Header from './Header';
-import Seperator from './Seperator';
 import UserNav from './UserNav';
 
 configureAnchors({ scrollDuration: 250 });
