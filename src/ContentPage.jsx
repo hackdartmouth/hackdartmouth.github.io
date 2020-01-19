@@ -12,7 +12,7 @@ import PipeBoi from './PipeBoi';
 
 
 const ContentPage = ({
-  title, dictKey, bodyContent, sectionColor, hidden, titleColor, href
+  title, dictKey, bodyContent, sectionColor, hidden, titleColor, href, first, last
 }) => {
   const componentDict = {
     AboutBody,
@@ -38,10 +38,21 @@ const ContentPage = ({
   return (
     <Element name={href} className="element">
       <div className="pageContainer" style={{ backgroundColor: sectionColor }}>
-      <PipeBoi top={true} left={true} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
-      <PipeBoi top={false} left={true} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
-      <PipeBoi top={true} left={false} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
-      <PipeBoi top={false} left={false} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
+      {
+        first ? null :
+        <>
+        <PipeBoi top={true} left={true} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
+        <PipeBoi top={true} left={false} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
+        </>
+      }
+      {
+        last ? null :
+        <>
+        <PipeBoi top={false} left={false} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
+        <PipeBoi top={false} left={true} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
+        </>
+      }
+      
         <div className="pageContent" style={{ width: isMobile ? '90%' : '80%' }}>
           <p className="pageTitle" style={{ color: titleColor }}>{title}</p>
           <BodyComponent bodyContent={bodyContent} />

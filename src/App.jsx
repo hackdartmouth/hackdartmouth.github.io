@@ -15,7 +15,7 @@ const App = () => (
   <div>
     <Header />
     <UserNav />
-    {pages.map(page => (
+    {pages.map((page,i) => (
       <Fragment key={page.key}>
         <ContentPage
           dictKey={page.key}
@@ -24,6 +24,8 @@ const App = () => (
           titleColor={page.titleColor}
           bodyContent={page.bodyContent}
           href={page.href}
+          first={i==0}
+          last={i==pages.length-1}
         />
       </Fragment>
     ))}
