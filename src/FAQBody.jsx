@@ -35,6 +35,10 @@ export default class FAQBody extends React.Component {
     }
   }
 
+  isFiller(faq) {
+    return !(faq.title.length == 0 || faq.text.length == 0);
+  }
+
   updateQAList() {
     let width = window.innerWidth;
     var filler;
@@ -47,8 +51,13 @@ export default class FAQBody extends React.Component {
       filler = (this.props.bodyContent % 2 == 0) ? 0 : 2 - (this.props.bodyContent.length % 2);
     }
 
-    console.log('re-doing filler cells');
-    // add filler
+    var newQA = this.state.qa.filter(this.isFiller);
+    for (var i = 0; i < filler; i++) {
+      newQA.push({ title: '', text: '' });
+      console.log(this.state.qa);
+    }
+
+    this.setState({ qa: newQA })
   }
 
   componentDidMount() {
@@ -76,7 +85,7 @@ export default class FAQBody extends React.Component {
           <br /><br />
         </div>
         <div className="gridContainer">
-          {this.props.bodyContent.map(QA => (
+          {this.state.qa.map(QA => (
             <div className="QABlock">
               {styleFuncBlock(QA.title, QA.text)}
             </div>

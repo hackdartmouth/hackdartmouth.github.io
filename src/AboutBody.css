@@ -2,7 +2,7 @@
     padding: 0;
     width: 100%;
 }
-.paragraph{ 
+.paragraph { 
     font-size: calc(0.75em + 1vw);
     width: 100%;
     top: 10%;
@@ -12,4 +12,8 @@
     display: inline-block;
     text-align: center;
     overflow-wrap: break-word;
+}
+.countdown {
+    font-size: calc(.85em + 1vw);
+    color: #50514c;
 }

@@ -24,8 +24,8 @@
     margin-bottom: 2vw;
     text-align: center;
 }
-@media (max-aspect-ratio: 1/1) {
+/* @media (max-aspect-ratio: 1/1) {
     .pageContent {
         width: 90%;
     }
-}
+} */

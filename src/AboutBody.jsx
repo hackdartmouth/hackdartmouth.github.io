@@ -7,9 +7,9 @@ import Countdown from 'react-countdown';
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
     return (
-      <h1 style={{ color: '#50514c' }}>
+      <div className='countdown'>
         HackDartmouthVI is underway!
-      </h1>
+      </div>
     );
   } else {
     var timeRemaining = 'HackDartmouth VI starts in';
@@ -20,7 +20,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
     }
 
     return (
-      <h1 style={{ color: '#50514c' }}>
+      <h1 className='countdown'>
         {timeRemaining}
       </h1>
     );

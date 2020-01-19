@@ -6,6 +6,7 @@ import FAQBody from './FAQBody';
 import RegisterBody from './RegisterBody';
 import SponsorBody from './SponsorBody';
 import ScheduleBody from './ScheduleBody';
+import { isMobile } from 'react-device-detect';
 import { Link, DirectLink, Element , Events, animateScroll, scrollSpy, scroller } from 'react-scroll'
 
 const ContentPage = ({
@@ -23,7 +24,7 @@ const ContentPage = ({
   return (
     <Element name={href} className="element">
       <div className="pageContainer" style={{ backgroundColor: sectionColor }}>
-        <div className="pageContent">
+        <div className="pageContent" style={{ width: isMobile ? '90%' : '80%' }}>
           <p className="pageTitle" style={{ color: titleColor }}>{title}</p>
           <BodyComponent bodyContent={bodyContent} />
         </div>
