@@ -1,14 +1,16 @@
 import React from 'react';
 import './AboutBody.css';
 import PropTypes from 'prop-types';
-import Linkify from 'react-linkify';
+import Markdown from 'markdown-to-jsx';
 
 const AboutBody = ({ bodyContent }) => (
   <div className="aboutContainer">
     {bodyContent.map(p => (
-      <Linkify>
-        <p className="paragraph">{p}</p>
-      </Linkify>
+      <p className="paragraph">
+        <Markdown>
+          {p}
+        </Markdown>
+      </p>
     ))}
   </div>
 );

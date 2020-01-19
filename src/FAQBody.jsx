@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './FAQBody.css';
-import Linkify from 'react-linkify';
+import Markdown from 'markdown-to-jsx';
 
 // generate function-style blocks for QA
 function styleFuncBlock(title, text) {
@@ -16,9 +16,11 @@ function styleFuncBlock(title, text) {
         <span className="function">{title.toLowerCase().replace(/ /g, "_").replace("?", "")}</span>
         <span className="syntax">() {String.fromCharCode(123)}</span>
       </h3>
-      <Linkify>
-        <p className="QAText">{text}</p>
-      </Linkify>
+      <p className="QAText">
+        <Markdown>
+          {text}
+        </Markdown>
+      </p>
       <p className="syntax">{String.fromCharCode(125)}</p>
     </div>
   )
