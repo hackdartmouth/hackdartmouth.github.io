@@ -8,12 +8,6 @@ import SponsorBody from './SponsorBody';
 import ScheduleBody from './ScheduleBody';
 import { Link, DirectLink, Element , Events, animateScroll, scrollSpy, scroller } from 'react-scroll'
 
-function defaultTitle(title) {
-  return (
-    <p className='pageTitle'>{title}</p>
-  )
-}
-
 const ContentPage = ({
   title, dictKey, bodyContent, sectionColor, hidden, titleColor, href
 }) => {

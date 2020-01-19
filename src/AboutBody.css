@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic,medium|Roboto:regular,medium');
-
 .aboutContainer {
     padding: 0;
     width: 100%;
@@ -10,7 +8,6 @@
     top: 10%;
     color: #50514c;
     text-align: left;
-    font-family: "Roboto";
     margin-bottom: 1em;
     display: inline-block;
     text-align: center;

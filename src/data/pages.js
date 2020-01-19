@@ -133,24 +133,12 @@ const pages = [
     titleColor: '#ffffff',
     bodyContent: [
       {
-        sponsorTier: 'SPROUT',
-        amount: '$500',
-        size: 10,
-        sponsors: [
-          'facebook.png',
-          'google.png',
-          'google.png',
-          'facebook.png',
-        ],
-      },
-      {
         sponsorTier: 'SHRUB',
         amount: '$1K',
-        size: 10,
+        size: 12,
         sponsors: [
-          'facebook.png',
-          'google.png',
-          'google.png',
+          'microsoft.png',
+          'tomtom.png',
         ],
       },
       {
@@ -158,8 +146,8 @@ const pages = [
         amount: '$2.5K',
         size: 15,
         sponsors: [
-          'facebook.png',
-          'google.png',
+          'appian.png',
+          'minerva.png',
         ],
       },
       {
@@ -168,19 +156,8 @@ const pages = [
         size: 20,
         sponsors: [
           'facebook.png',
-          'google.png',
-          'google.png',
-        ],
-      },
-      {
-        sponsorTier: 'LONE PINE',
-        amount: '$10K',
-        size: 25,
-        sponsors: [
-          'facebook.png',
-          'google.png',
-          'google.png',
-
+          'intralinks.png',
+          'wayfair.png',
         ],
       },
     ],

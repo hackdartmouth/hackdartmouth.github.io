@@ -5,21 +5,21 @@ import './SponsorBody.css';
 
 const SponsorBody = ({ bodyContent }) => {
   return (
-    <Container className="sponsorContainer">
+    <div className="sponsorContainer">
       {
         bodyContent.slice(0).reverse().map(tier => (
-          <Row>
-            <h3 className="tierTitle">{`{ ${tier.sponsorTier} }`}</h3>
+          <div class="tierContainer">
+            <h1 className="tierTitle">{`{ ${tier.sponsorTier} }`}</h1>
             <hr className="divider" />
             {
               tier.sponsors.map(company => (
-                <Col><img className="sponsorImg" src={require(`./img/sponsors/${company}`)} style={{width: `${tier.size}vw`}} alt={`company: ${tier.amount}`} /> </Col>
+                <img className="sponsorImg" src={require(`./img/sponsors/${company}`)} style={{width: `${tier.size}vw`}} alt={`company: ${tier.amount}`} />
               )) 
             }           
-          </Row>
+          </div>
         ))
       }
-    </Container>
+    </div>
   );
 }
 

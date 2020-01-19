@@ -14,8 +14,10 @@ const headerInfo = {
 const Header = () => (
   <>
     <div className="headerContainer" style={{ backgroundColor: headerInfo.sectionColor }}>
-    <Particles 
-    height="100vh"
+	<div style={{position: "absolute"}}>
+	<Particles 
+	height="100vh"
+	width="100vw"
     params={{
 	    "particles": {
 	        "number": {
@@ -50,15 +52,20 @@ const Header = () => (
 	        }
 	    }
 	}}/>
-    <div className="text">
-      <p className="title">{headerInfo.title}</p>
-      <p className="info">{`${headerInfo.date} | ${headerInfo.location}`}</p>
-      <Link activeClass="active" className="test1" to={"register"} spy={true} smooth={true} duration={500} offset={-58}>
-        <Button variant="outline-light" className="registerButton" style={{ backgroundColor: "#ffffff", borderStyle: "none", color: "#5f936a", fontWeight: "bold"}}>
-          Register!
-        </Button>
-      </Link>
-    </div>
+	</div>
+	<div className="textBigContainer">
+		<div className="textContainer">
+			<p className="title">{headerInfo.title}</p>
+			<p className="info">{`${headerInfo.date} | ${headerInfo.location}`}</p>
+			<Link activeClass="active" className="test1" to={"register"} spy={true} smooth={true} duration={500} offset={-58}>
+				<Button variant="outline-light" className="registerButton" style={{ backgroundColor: "#ffffff", borderStyle: "none", color: "#5f936a", fontWeight: "bold"}}>
+				Register!
+				</Button>
+			</Link>
+		</div>
+	</div>
+	
+    
     </div>
   </>
  

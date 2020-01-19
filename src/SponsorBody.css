@@ -12,9 +12,18 @@
 }
 .sponsorContainer{
   width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  
+}
+.tierContainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 .sponsorImg{
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0;
+  align-self: center;
 }
