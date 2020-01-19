@@ -16,7 +16,7 @@ function styleFuncBlock(title, text) {
         <span className="function">{title.toLowerCase().replace(/ /g, "_").replace("?", "")}</span>
         <span className="syntax">() {String.fromCharCode(123)}</span>
       </h3>
-      <p className="QAText">
+      <p className="QAText code">
         <Markdown>
           {text}
         </Markdown>
@@ -64,22 +64,16 @@ export default class FAQBody extends React.Component {
     return (
       <div>
         <div className="lineNumbers"></div>
-        <div className="imports">
-          <div className="code">
-            <p>
-              <span className="specialKeyword">import </span>
-              <span className="specialSyntax">swag</span>
-            </p>
-            <p>
-              <span className="specialKeyword">import </span>
-              <span className="specialSyntax">hacking</span>
-            </p>
-            <p>
-              <span className="specialKeyword">import </span>
-              <span className="specialSyntax">questions</span>
-            </p>
-            <br></br>
-          </div>
+        <div className="imports code">
+          <span className="specialKeyword">import </span>
+          <span className="specialSyntax">swag</span>
+          <br />
+          <span className="specialKeyword">import </span>
+          <span className="specialSyntax">hacking</span>
+          <br />
+          <span className="specialKeyword">import </span>
+          <span className="specialSyntax">questions</span>
+          <br /><br />
         </div>
         <div className="gridContainer">
           {this.props.bodyContent.map(QA => (

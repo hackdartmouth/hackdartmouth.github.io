@@ -6,33 +6,18 @@ import * as typeformEmbed from "@typeform/embed";
 class RegisterBody extends React.Component {
   constructor(props) {
     super(props);
-    this.openForm = this.openForm.bind(this);
 
     this.form = null;
   }
 
   componentDidMount() {
     if (this.form) {
-      typeformEmbed.makeWidget(this.form, 'https://hackdartmouth.typeform.com/to/foXT8j', {
+      typeformEmbed.makeWidget(this.form, this.props.bodyContent.typeformUrl, {
         hideFooter: true,
         hideHeaders: true,
         opacity: 0
       });
     }
-  }
-
-  openForm() {
-    typeformEmbed.makePopup(
-      'https://hackdartmouth.typeform.com/to/foXT8j',
-      {
-        mode: 'popup',
-        autoOpen: true,
-        hideScrollbars: true,
-        onSubmit: function () {
-          console.log('Typeform successfully submitted')
-        }
-      }
-    )
   }
 
   render() {
