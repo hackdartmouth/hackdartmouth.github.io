@@ -21,11 +21,7 @@
     font-size: calc(1em + 2vw);
     font-family: "Poppins";
     font-weight: 600;
-    margin-bottom: 2vw;
     text-align: center;
+    width: 90%;
+    margin: 0 auto 2vw auto;
 }
-/* @media (max-aspect-ratio: 1/1) {
-    .pageContent {
-        width: 90%;
-    }
-} */
