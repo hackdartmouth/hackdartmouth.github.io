@@ -180,6 +180,7 @@ const pages = [
       typeformUrl: 'https://hackdartmouth.typeform.com/to/foXT8j',
       socialLinks: [
         'https://www.facebook.com/hackDartmouth',
+        'https://www.instagram.com/hackdartmouth/',
         'https://twitter.com/hackdartmouth',
         'https://www.linkedin.com/company/6588725?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A6588725%2Cidx%3A1-1-1%2CtarId%3A1439363530321%2Ctas%3Ahackdartmouth',
         'https://github.com/hackdartmouth',
