@@ -26,3 +26,13 @@
   border-radius: 10px;
   background-color: gray;
 }
+.socialContainer{
+  display: flex;
+  justify-content: center;
+}
+.social{
+  margin: 1.5em .5vw 0 .5vw;
+}
+.socialMobile{
+  margin: 1.5em 1vw 1em 1vw;
+}

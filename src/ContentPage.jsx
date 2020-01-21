@@ -52,7 +52,7 @@ const ContentPage = ({
           <PipeBoi top={false} left={true} flipped={Math.floor(Math.random()*2)==1|1==2} darkBackground={brightnessByColor(sectionColor)<128}/>
           </>
         }
-        <div className="pageContent" style={{ width: isMobile ? '90%' : '80%', paddingBottom: isMobile ? '10%' : '0vw' }}>
+        <div className="pageContent" style={{ width: isMobile ? '90%' : '80%', paddingBottom: isMobile ? last ? '0' : '10%' : '0vw' }}>
           <h1 className="pageTitle" style={{ color: titleColor }}>{title}</h1>
           <BodyComponent bodyContent={bodyContent} />
         </div>
