@@ -66,6 +66,12 @@
     margin-bottom: 1em;
     font-weight: 100;
 }
+.QAText a {
+    color: #E6DC83;
+}
+.QAText a:hover {
+    font-style: unset;
+}
 .code{
     font-family: Menlo;
     margin-bottom: 1em;

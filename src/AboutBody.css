@@ -1,19 +1,48 @@
 .aboutContainer {
     padding: 0;
     width: 100%;
+    color: #50514c;
 }
 .paragraph { 
     font-size: calc(0.75em + 1vw);
     width: 100%;
     top: 10%;
-    color: #50514c;
     text-align: left;
     margin-bottom: 1em;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     overflow-wrap: break-word;
+    flex-grow: 2;
+    margin-bottom: 0;
 }
-.countdown {
+.paragraph a {
+    color: #5f936a;
+}
+.paragraph a:hover {
+    font-style: unset;
+}
+.countdownTitle {
     font-size: calc(.85em + 1vw);
-    color: #50514c;
+}
+.countdownContainer {
+    display: flex;
+    justify-content: center;
+}
+.countdownElement {
+    width: calc((2.25em + 1vw) * 2);
+}
+.countdownValue {
+    font-size: calc(2.5em + 1.5vw);
+    margin-bottom: 0;
+}
+.countdownLabel {
+    font-size: calc(.85em + 1vw);
+    margin-bottom: 0;
+}
+.img {
+    height: 25vh;
+    padding-left: 5vw;
+}
+.aboutText {
+    flex-grow: 2
 }

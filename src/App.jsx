@@ -5,14 +5,15 @@ import ContentPage from './ContentPage';
 import pages from './data/pages';
 import Header from './Header';
 import UserNav from './UserNav';
+import Favicon from 'react-favicon';
+import DocumentTitle from 'react-document-title';
 
 configureAnchors({ scrollDuration: 250 });
 
-
-// import SponsorsBody from './SponsorsBody';
-// import RegisterBody from './RegisterBody';
 const App = () => (
   <div>
+    <DocumentTitle title='HackDartmouth' />
+    <Favicon url={require(`./img/favicon.ico`)} />
     <Header />
     <UserNav />
     {pages.map((page,i) => (

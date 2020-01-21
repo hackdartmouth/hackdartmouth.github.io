@@ -56,7 +56,7 @@ const pages = [
       },
       {
         title: 'How can I support the hackathon?',
-        text: 'If you are interested in being a mentor or sponsor, contact us [here](sponsors@hackdartmouth.io)!',
+        text: 'If you are interested in being a mentor or sponsor, contact us [here](mailto:sponsors@hackdartmouth.io)!',
       },
       {
         title: 'When is the deadline to register?',
@@ -64,7 +64,7 @@ const pages = [
       },
       {
         title: 'Other questions?',
-        text: 'Shoot us an [email](questions@hackdartmouth.io) and we’ll get back to you as soon as we can!',
+        text: 'Shoot us an [email](mailto:questions@hackdartmouth.io) and we’ll get back to you as soon as we can!',
       },
     ],
     key: 'FAQBody',
@@ -158,7 +158,7 @@ const pages = [
         size: 20,
         sponsors: [
           'facebook.png',
-          'intralinks.png',
+          'intralinks.svg',
           'wayfair.png',
         ],
       },
