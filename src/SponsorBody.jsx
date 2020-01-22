@@ -13,7 +13,10 @@ const SponsorBody = ({ bodyContent }) => {
             <hr className="divider" />
             {
               tier.sponsors.map(company => (
-                <img className="sponsorImg" src={require(`./img/sponsors/${company}`)} style={{width: `${tier.size}vw`}} alt={`company: ${tier.amount}`} />
+                <a href={company.link}>
+                  <img className="sponsorImg" src={require(`./img/sponsors/${company.src}`)} style={{width: `${tier.size}vw`}} alt={`company: ${tier.amount}`} />
+                </a>
+                
               )) 
             }           
           </div>
