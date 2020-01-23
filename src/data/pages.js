@@ -139,7 +139,7 @@ const pages = [
         amount: '$1K',
         size: 12,
         sponsors: [
-          {src:'microsoft.png', link: 'https://www.microsoft.com/en-us/'}
+          // {src:'microsoft.png', link: 'https://www.microsoft.com/en-us/'}
         ],
       },
       {
@@ -158,7 +158,7 @@ const pages = [
         size: 20,
         sponsors: [
           {src:'facebook.png', link: 'https://www.facebook.com/'},
-          {src:'intralinks.svg', link: 'https://www.intralinks.com/'},
+          // {src:'intralinks.svg', link: 'https://www.intralinks.com/'},
           {src:'wayfair.png', link: 'https://www.wayfair.com/'}
         ],
       },
