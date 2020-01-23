@@ -139,8 +139,7 @@ const pages = [
         amount: '$1K',
         size: 12,
         sponsors: [
-          'microsoft.png',
-          'tomtom.png',
+          // {src:'microsoft.png', link: 'https://www.microsoft.com/en-us/'}
         ],
       },
       {
@@ -148,8 +147,9 @@ const pages = [
         amount: '$2.5K',
         size: 15,
         sponsors: [
-          'appian.png',
-          'minerva.png',
+          {src:'appian.png', link: 'https://www.appian.com/'},
+          {src:'minerva.png', link: 'https://www.minervaanalytics.co/'},
+          {src:'tomtom.png', link: 'https://www.tomtom.com/en_us/'}
         ],
       },
       {
@@ -157,9 +157,9 @@ const pages = [
         amount: '$5K',
         size: 20,
         sponsors: [
-          'facebook.png',
-          'intralinks.svg',
-          'wayfair.png',
+          {src:'facebook.png', link: 'https://www.facebook.com/'},
+          // {src:'intralinks.svg', link: 'https://www.intralinks.com/'},
+          {src:'wayfair.png', link: 'https://www.wayfair.com/'}
         ],
       },
     ],
