@@ -135,6 +135,16 @@ const pages = [
     titleColor: '#ffffff',
     bodyContent: [
       {
+        sponsorTier: 'PARTNERS',
+        amount: '$xK',
+        size: 20,
+        sponsors: [
+          {src:'wolf.png', link: 'https://www.wolframalpha.com/'},
+          {src:'neukom.png', link: 'https://neukom.dartmouth.edu/'},
+          {src:'dartmouth_cs.png', link: 'https://web.cs.dartmouth.edu/'},
+        ],
+      },
+      {
         sponsorTier: 'SHRUB',
         amount: '$1K',
         size: 12,
