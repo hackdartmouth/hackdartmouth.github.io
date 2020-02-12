@@ -60,7 +60,7 @@ const pages = [
       },
       {
         title: 'When is the deadline to register?',
-        text: 'Non-Dartmouth students can register up to March 1st, and applications will be accepted on a rolling basis. Dartmouth students may register up to the day of the event.',
+        text: 'Non-Dartmouth student registration is open until March 1st. Dartmouth students may register up to the day of the event.',
       },
       {
         title: 'Can I get reimbursed for travel?',
