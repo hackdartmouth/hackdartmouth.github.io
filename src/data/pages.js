@@ -60,7 +60,7 @@ const pages = [
       },
       {
         title: 'When is the deadline to register?',
-        text: 'Non-Dartmouth student registration is open until March 1st. Dartmouth students may register up to the day of the event.',
+        text: 'Non-Dartmouth student registration is open until March 20th. Dartmouth students may register up to the day of the event.',
       },
       {
         title: 'Can I get reimbursed for travel?',
@@ -190,7 +190,7 @@ const pages = [
       event: 'HackDartmouth VI',
       date: 'April 18-19, 2020',
       location: 'Thayer School of Engineering',
-      info: 'Registration for non-Dartmouth students closes March 1st. Dartmouth students may register up to the day of the hackathon',
+      info: 'Registration for non-Dartmouth students closes March 20th. Dartmouth students may register up to the day of the hackathon',
       typeformUrl: 'https://hackdartmouth.typeform.com/to/foXT8j',
       socialLinks: [
         'https://www.facebook.com/hackDartmouth',
