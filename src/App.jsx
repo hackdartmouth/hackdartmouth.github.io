@@ -7,8 +7,14 @@ import Header from './Header';
 import UserNav from './UserNav';
 import Favicon from 'react-favicon';
 import DocumentTitle from 'react-document-title';
+import ReactGA from 'react-ga';
 
 configureAnchors({ scrollDuration: 250 });
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-60214500-2');
+  ReactGA.pageview('/mainpage');
+}
 
 const App = () => (
   <div>

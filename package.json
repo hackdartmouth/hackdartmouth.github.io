@@ -16,6 +16,7 @@
     "react-document-title": "^2.0.3",
     "react-dom": "^16.8.6",
     "react-favicon": "^0.0.17",
+    "react-ga": "^2.7.0",
     "react-linkify": "^1.0.0-alpha",
     "react-page-scroller": "^1.5.1",
     "react-particles-js": "^2.7.0",
