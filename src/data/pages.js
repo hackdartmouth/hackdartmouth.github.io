@@ -8,7 +8,7 @@ const pages = [
     titleColor: '#5f936a',
     bodyContent: {
       blurb: [
-        'Welcome to HackDartmouth 2020! Join us for Dartmouth’s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The day of the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to checkout out some our [past projects](https://hackdartmouthv.devpost.com/submissions).',
+        'Welcome to HackDartmouth 2020! Join us for Dartmouth\'s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to check out some of our [past projects](https://hackdartmouthv.devpost.com/submissions).',
       ],
       upcomingDate: '18 Apr 2020 07:30:00 EST',
     },
@@ -31,11 +31,11 @@ const pages = [
         text: 'Any university student (graduate or undergraduate) is welcome to participate! We also admit high school students with parental permission. Anyone and everyone is welcome to come and see what participants are working on, though, so feel free to swing by.',
       },
       {
-        title: 'What kind of experience do I need?',
+        title: 'Do I need experience?',
         text: "Depends on what you're looking to make! A little background in programming and/or hardware will be helpful, but you'll have plenty of opportunity to join teams and learn from Dartmouth students, students from other schools, and mentors. We’ll also have workshops if you are interested in learning a particular skill. 24 hours is plenty of time to learn something new!",
       },
       {
-        title: 'Do I need an idea or a team?',
+        title: 'Do I need a team?',
         text: 'Nope! Although you can sign up with teammates, you can also sign up as an individual, and we will help place you on a team.',
       },
       {
@@ -47,7 +47,7 @@ const pages = [
         text: 'We recommend working in teams of 3-4 people, though participants in the past have worked solo or in pairs as well. However, if your team would like to submit your project for prize consideration, we have a hard limit of 4 members per team.',
       },
       {
-        title: 'What do I need to bring?',
+        title: 'What should I bring?',
         text: "Laptop, cellphone, chargers, toiletries, sleeping bag (if planning to sleep at venue). Food will be provided! Please don't bring alcohol, drugs, or soldering equipment.",
       },
       {
@@ -60,7 +60,11 @@ const pages = [
       },
       {
         title: 'When is the deadline to register?',
-        text: 'Non-Dartmouth students can register up to March 1st, and applications will be accepted on a rolling basis. Dartmouth students may register up to the day of the event.',
+        text: 'Non-Dartmouth student registration is open until March 20th. Dartmouth students may register up to the day of the event.',
+      },
+      {
+        title: 'Can I get reimbursed for travel?',
+        text: 'Yes! We will take your circumstances into consideration when assigning travel reimbursements.'
       },
       {
         title: 'Other questions?',
@@ -187,7 +191,7 @@ const pages = [
       event: 'HackDartmouth VI',
       date: 'April 18-19, 2020',
       location: 'Thayer School of Engineering',
-      info: 'Registration for non-Dartmouth students closes March 1st. Dartmouth students may register up to the day of the hackathon',
+      info: 'Registration for non-Dartmouth students closes March 20th. Dartmouth students may register up to the day of the hackathon',
       typeformUrl: 'https://hackdartmouth.typeform.com/to/foXT8j',
       socialLinks: [
         'https://www.facebook.com/hackDartmouth',
