@@ -16,27 +16,34 @@ function initializeReactGA() {
   ReactGA.pageview('/mainpage');
 }
 
-const App = () => (
-  <div>
-    <DocumentTitle title='HackDartmouth' />
-    <Favicon url={require(`./img/favicon.ico`)} />
-    <Header />
-    <UserNav />
-    {pages.map((page,i) => (
-      <Fragment key={page.key}>
-        <ContentPage
-          dictKey={page.key}
-          sectionColor={page.sectionColor}
-          title={page.pageTitle}
-          titleColor={page.titleColor}
-          bodyContent={page.bodyContent}
-          href={page.href}
-          first={i==0}
-          last={i==pages.length-1}
-        />
-      </Fragment>
-    ))}
-  </div>
-);
+export default class App extends React.Component {
+  constructor(props) {
+    super(props)
+    initializeReactGA()
+  }
 
-export default App;
+  render() {
+    return (
+      <div>
+        <DocumentTitle title='HackDartmouth' />
+        <Favicon url={require(`./img/favicon.ico`)} />
+        <Header />
+        <UserNav />
+        {pages.map((page,i) => (
+          <Fragment key={page.key}>
+            <ContentPage
+              dictKey={page.key}
+              sectionColor={page.sectionColor}
+              title={page.pageTitle}
+              titleColor={page.titleColor}
+              bodyContent={page.bodyContent}
+              href={page.href}
+              first={i==0}
+              last={i==pages.length-1}
+            />
+          </Fragment>
+        ))}
+      </div>
+    )
+  }
+};
