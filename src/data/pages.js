@@ -142,6 +142,7 @@ const pages = [
           {src:'wolf.png', link: 'https://www.wolframalpha.com/'},
           {src:'neukom.png', link: 'https://neukom.dartmouth.edu/'},
           {src:'dartmouth_cs.png', link: 'https://web.cs.dartmouth.edu/'},
+          {src:'boloco.png', link: 'http://www.boloco.com/'},
         ],
       },
       {
@@ -158,7 +159,7 @@ const pages = [
         size: 15,
         sponsors: [
           {src:'appian.png', link: 'https://www.appian.com/'},
-          {src:'minerva.png', link: 'https://www.minervaanalytics.co/'},
+          // {src:'minerva.png', link: 'https://www.minervaanalytics.co/'},
           {src:'tomtom.png', link: 'https://www.tomtom.com/en_us/'}
         ],
       },
@@ -169,7 +170,7 @@ const pages = [
         sponsors: [
           {src:'facebook.png', link: 'https://www.facebook.com/'},
           // {src:'intralinks.svg', link: 'https://www.intralinks.com/'},
-          {src:'wayfair.png', link: 'https://www.wayfair.com/'}
+          // {src:'wayfair.png', link: 'https://www.wayfair.com/'}
         ],
       },
     ],
