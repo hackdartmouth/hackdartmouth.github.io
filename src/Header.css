@@ -34,7 +34,14 @@
     width: 100%;
     margin-bottom: 0;
 } 
-
+.announcement{
+    color: white;
+    font-size: calc(.5em + 1vw);
+    font-family: "Poppins";
+    margin-left: .5vw;
+    width: 100%;
+    margin-bottom: 0;
+} 
 .registerButton{
     width: fit-content;
 }

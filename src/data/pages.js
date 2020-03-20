@@ -1,6 +1,6 @@
 const pages = [
   {
-    visible: true,
+    visible: false,
     navText: 'ABOUT',
     href: 'about',
     sectionColor: '#ffffff',
@@ -15,7 +15,7 @@ const pages = [
     key: 'AboutBody',
   },
   {
-    visible: true,
+    visible: false,
     navText: 'FAQ',
     href: 'faq',
     sectionColor: '#024b40',
@@ -74,7 +74,7 @@ const pages = [
     key: 'FAQBody',
   },
   {
-    visible: true,
+    visible: false,
     navText: 'SCHEDULE',
     href: 'schedule',
     sectionColor: '#cde3db',
@@ -181,7 +181,7 @@ const pages = [
     key: 'SponsorBody',
   },
   {
-    visible: true,
+    visible: false,
     navText: 'REGISTER',
     href: 'register',
     sectionColor: '#5f936a',
