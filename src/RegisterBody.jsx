@@ -9,7 +9,6 @@ class RegisterBody extends React.Component {
   constructor(props) {
     super(props);
     this.form = null;
-    this.socialSize = isMobile ? 25 : 35
   }
 
   componentDidMount() {
@@ -28,11 +27,6 @@ class RegisterBody extends React.Component {
         <h1 className="registerSubTitle">{`${this.props.bodyContent.date} | ${this.props.bodyContent.location}`}</h1>
         <p className="registerDetails">{this.props.bodyContent.info}</p>
         <div ref={(form) => this.form = form} style={{width: '100%', height: isMobile ? '10em' : '20em', marginTop: '1em'}} />
-        <div className='socialContainer'>
-          {this.props.bodyContent.socialLinks.map(link => (
-            <SocialIcon url={link} bgColor='#ffffff' className={ isMobile ? 'socialMobile' : 'social' } style={{ height: this.socialSize, width: this.socialSize }} />
-          ))}
-        </div>
       </div>
     );
   }

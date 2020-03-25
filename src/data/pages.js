@@ -193,14 +193,6 @@ const pages = [
       location: 'Thayer School of Engineering',
       info: 'Registration for non-Dartmouth students closes March 20th. Dartmouth students may register up to the day of the hackathon',
       typeformUrl: 'https://hackdartmouth.typeform.com/to/foXT8j',
-      socialLinks: [
-        'https://www.facebook.com/hackDartmouth',
-        'https://www.instagram.com/hackdartmouth/',
-        'https://twitter.com/hackdartmouth',
-        'https://www.linkedin.com/company/6588725?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A6588725%2Cidx%3A1-1-1%2CtarId%3A1439363530321%2Ctas%3Ahackdartmouth',
-        'https://github.com/hackdartmouth',
-        'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-      ],
     },
     key: 'RegisterBody',
   },
