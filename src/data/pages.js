@@ -44,15 +44,15 @@ const pages = [
       },
       {
         title: 'How many people can be on a team?',
-        text: 'We recommend working in teams of 3-4 people, though participants in the past have worked solo or in pairs as well. However, if your team would like to submit your project for prize consideration, we have a hard limit of 4 members per team.',
-      },
-      {
-        title: 'What should I bring?',
-        text: "Laptop, cellphone, chargers, toiletries, sleeping bag (if planning to sleep at venue). Food will be provided! Please don't bring alcohol, drugs, or soldering equipment.",
+        text: 'We recommend working in teams of 3-4 people, though participants in the past have worked solo or in pairs as well. However, if your team would like to submit your project for prize consideration, we have a hard limit of 4 members per team.'
       },
       {
         title: 'What can I win?',
-        text: 'A panel of judges will decide on the winning hacks based on criteria of creativity, usefulness, technical difficulty, and form. The top prizes are TBA. Previous prizes have included drones, Apple watches, speakers, TVs, and other awesome tech.',
+        text: 'A panel of judges will decide on the winning hacks based on criteria of creativity, usefulness, technical difficulty, and form. The top prizes are TBA. Previous prizes have included drones, Apple watches, Nintendo switches, bluetooth speakers, and other awesome tech.'
+      },
+      {
+        title: 'How will prizes and swag work?',
+        text: 'Given the virtual format of the hackathon, this year we’ll be mailing swag to everyone that submits a project! We’ll be shipping out swag and prizes anywhere in the US and requests outside of the US will be approved on a case-by-case basis.',
       },
       {
         title: 'How can I support the hackathon?',
@@ -60,16 +60,12 @@ const pages = [
       },
       {
         title: 'When is the deadline to register?',
-        text: 'Non-Dartmouth student registration is open until March 20th. Dartmouth students may register up to the day of the event.',
-      },
-      {
-        title: 'Can I get reimbursed for travel?',
-        text: 'Yes! We will take your circumstances into consideration when assigning travel reimbursements.'
+        text: 'Registration is open until March 20th!',
       },
       {
         title: 'Other questions?',
         text: 'Shoot us an [email](mailto:questions@hackdartmouth.io) and we’ll get back to you as soon as we can!',
-      },
+      }
     ],
     key: 'FAQBody',
   },
