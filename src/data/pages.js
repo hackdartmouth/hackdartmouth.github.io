@@ -15,7 +15,7 @@ const pages = [
     key: 'AboutBody',
   },
   {
-    visible: false,
+    visible: true,
     navText: 'FAQ',
     href: 'faq',
     sectionColor: '#024b40',
@@ -23,20 +23,20 @@ const pages = [
     titleColor: '#ffffff',
     bodyContent: [
       {
-        title: 'What is a hackathon?',
-        text: 'A hackathon is an event in which groups of hackers divided into teams develop a product. Hundreds of programmers get together to build something from scratch, be it a website, app, or some other product of their imagination. There will be lots of food and prizes, and opportunities to work with representatives from various companies.',
+        title: 'What\'s a virtual hackathon?',
+        text: 'A hackathon is an event in which groups of hackers divide into teams to develop a product. This year, we’ll be hosting our hackathon online. Hundreds of programmers from around the world will team-up to build something from scratch, be it a website, app, or some other product of their imagination.',
       },
       {
         title: 'Who can attend?',
-        text: 'Any university student (graduate or undergraduate) is welcome to participate! We also admit high school students with parental permission. Anyone and everyone is welcome to come and see what participants are working on, though, so feel free to swing by.',
+        text: 'Any university student (graduate or undergraduate) is welcome to participate! We also admit high school students with parental permission.',
       },
       {
         title: 'Do I need experience?',
-        text: "Depends on what you're looking to make! A little background in programming and/or hardware will be helpful, but you'll have plenty of opportunity to join teams and learn from Dartmouth students, students from other schools, and mentors. We’ll also have workshops if you are interested in learning a particular skill. 24 hours is plenty of time to learn something new!",
+        text: "Depends on what you're looking to make! A little background in programming will be helpful, but you'll have plenty of opportunity to join teams and learn from Dartmouth students, students from other schools, and mentors. We’ll also have workshops if you are interested in learning a particular skill. There is plenty of time to learn something new!",
       },
       {
         title: 'Do I need a team?',
-        text: 'Nope! Although you can sign up with teammates, you can also sign up as an individual, and we will help place you on a team.',
+        text: "Nope! While teams can be specified on the application, you won't officially create your team until the event. You do not have to sign up with a team - we will also host a virtual team formation social before hacking begins!",
       },
       {
         title: 'What can I build?',
