@@ -127,7 +127,7 @@ const pages = [
     key: 'ScheduleBody',
   },
   {
-    visible: true,
+    visible: false,
     navText: 'SPONSORS',
     href: 'sponsors',
     sectionColor: '#9BCFB8',
