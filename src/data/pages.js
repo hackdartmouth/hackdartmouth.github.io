@@ -8,14 +8,14 @@ const pages = [
     titleColor: '#5f936a',
     bodyContent: {
       blurb: [
-        'Welcome to HackDartmouth 2020! Join us for Dartmouth\'s sixth annual hackathon, an event that brings together over 250 students with a passion for technology. The event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to check out some of our [past projects](https://hackdartmouthv.devpost.com/submissions).',
+        'Welcome to HackDartmouth 2021! Despite the challenges of 2020, the HackDartmouth team is gearing up to host a fantastic ~virtual~ hackathon this Spring! Like years prior, the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to check out some of our [past projects](https://hackdartmouthv.devpost.com/submissions).',
       ],
-      upcomingDate: '18 Apr 2020 07:30:00 EST',
+      //upcomingDate: '18 Apr 2020 07:30:00 EST',
     },
     key: 'AboutBody',
   },
   {
-    visible: false,
+    visible: true,
     navText: 'FAQ',
     href: 'faq',
     sectionColor: '#024b40',
@@ -23,20 +23,20 @@ const pages = [
     titleColor: '#ffffff',
     bodyContent: [
       {
-        title: 'What is a hackathon?',
-        text: 'A hackathon is an event in which groups of hackers divided into teams develop a product. Hundreds of programmers get together to build something from scratch, be it a website, app, or some other product of their imagination. There will be lots of food and prizes, and opportunities to work with representatives from various companies.',
+        title: 'What\'s a virtual hackathon?',
+        text: 'A hackathon is an event in which groups of hackers divide into teams to develop a product. This year, we’ll be hosting our hackathon online. Hundreds of programmers from around the world will team-up to build something from scratch, be it a website, app, or some other product of their imagination.',
       },
       {
         title: 'Who can attend?',
-        text: 'Any university student (graduate or undergraduate) is welcome to participate! We also admit high school students with parental permission. Anyone and everyone is welcome to come and see what participants are working on, though, so feel free to swing by.',
+        text: 'Any university student (graduate or undergraduate) is welcome to participate! We also admit high school students with parental permission.',
       },
       {
         title: 'Do I need experience?',
-        text: "Depends on what you're looking to make! A little background in programming and/or hardware will be helpful, but you'll have plenty of opportunity to join teams and learn from Dartmouth students, students from other schools, and mentors. We’ll also have workshops if you are interested in learning a particular skill. 24 hours is plenty of time to learn something new!",
+        text: "Depends on what you're looking to make! A little background in programming will be helpful, but you'll have plenty of opportunity to join teams and learn from Dartmouth students, students from other schools, and mentors. We’ll also have workshops if you are interested in learning a particular skill. There is plenty of time to learn something new!",
       },
       {
         title: 'Do I need a team?',
-        text: 'Nope! Although you can sign up with teammates, you can also sign up as an individual, and we will help place you on a team.',
+        text: "Nope! While teams can be specified on the application, you won't officially create your team until the event. You do not have to sign up with a team - we will also host a virtual team formation social before hacking begins!",
       },
       {
         title: 'What can I build?',
@@ -44,15 +44,15 @@ const pages = [
       },
       {
         title: 'How many people can be on a team?',
-        text: 'We recommend working in teams of 3-4 people, though participants in the past have worked solo or in pairs as well. However, if your team would like to submit your project for prize consideration, we have a hard limit of 4 members per team.',
-      },
-      {
-        title: 'What should I bring?',
-        text: "Laptop, cellphone, chargers, toiletries, sleeping bag (if planning to sleep at venue). Food will be provided! Please don't bring alcohol, drugs, or soldering equipment.",
+        text: 'We recommend working in teams of 3-4 people, though participants in the past have worked solo or in pairs as well. However, if your team would like to submit your project for prize consideration, we have a hard limit of 4 members per team.'
       },
       {
         title: 'What can I win?',
-        text: 'A panel of judges will decide on the winning hacks based on criteria of creativity, usefulness, technical difficulty, and form. The top prizes are TBA. Previous prizes have included drones, Apple watches, speakers, TVs, and other awesome tech.',
+        text: 'A panel of judges will decide on the winning hacks based on criteria of creativity, usefulness, technical difficulty, and form. The top prizes are TBA. Previous prizes have included drones, Apple watches, Nintendo switches, bluetooth speakers, and other awesome tech.'
+      },
+      {
+        title: 'How will prizes and swag work?',
+        text: 'Given the virtual format of the hackathon, this year we’ll be mailing swag to everyone that submits a project! We’ll be shipping out swag and prizes anywhere in the US and requests outside of the US will be approved on a case-by-case basis.',
       },
       {
         title: 'How can I support the hackathon?',
@@ -60,16 +60,12 @@ const pages = [
       },
       {
         title: 'When is the deadline to register?',
-        text: 'Non-Dartmouth student registration is open until March 20th. Dartmouth students may register up to the day of the event.',
-      },
-      {
-        title: 'Can I get reimbursed for travel?',
-        text: 'Yes! We will take your circumstances into consideration when assigning travel reimbursements.'
+        text: 'Registration is open until March 20th!',
       },
       {
         title: 'Other questions?',
         text: 'Shoot us an [email](mailto:questions@hackdartmouth.io) and we’ll get back to you as soon as we can!',
-      },
+      }
     ],
     key: 'FAQBody',
   },
@@ -131,7 +127,7 @@ const pages = [
     key: 'ScheduleBody',
   },
   {
-    visible: true,
+    visible: false,
     navText: 'SPONSORS',
     href: 'sponsors',
     sectionColor: '#9BCFB8',
