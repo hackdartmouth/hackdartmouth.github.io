@@ -10,7 +10,7 @@ const pages = [
       blurb: [
         'Welcome to HackDartmouth 2021! Despite the challenges of 2020, the HackDartmouth team is gearing up to host a fantastic ~virtual~ hackathon this Spring! Like years prior, the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to check out some of our [past projects](https://hackdartmouthv.devpost.com/submissions).',
       ],
-      //upcomingDate: '18 Apr 2020 07:30:00 EST',
+      upcomingDate: '16-18 Apr 2021 EST'//07:30:00 EST',
     },
     key: 'AboutBody',
   },
