@@ -5,9 +5,9 @@ import { Link, DirectLink, Element , Events, animateScroll, scrollSpy, scroller 
 import Particles from 'react-particles-js';
 
 const headerInfo = {
-  title: 'HackDartmouth VI',
-  date: 'April 18-19th, 2020',
-  location: 'Thayer School of Engineering',
+  title: 'HackDartmouth VII',
+  date: 'April 16-18th, 2021',
+  location: '~Virtual~',
   backgroundImg: 'header.png',
   sectionColor: '#5f936a',
 };
@@ -56,14 +56,7 @@ const Header = () => (
 		<div className="textBigContainer">
 			<div className="textContainer">
 				<p className="title">{headerInfo.title}</p>
-				<p className="announcement">Hi Hackers,</p>
-				<p className="announcement">We’re sorry to announce that Dartmouth’s sixth annual hackathon will be canceled due to developments surrounding the coronavirus.</p>
-				<p className="announcement">We understand that many of you have been looking forward to this event and were wondering whether HackDartmouth would take place online. Unfortunately, due to the major infrastructure changes and the tight timeline this would require, we don’t believe that we have the capacity to deliver participants a smooth and enjoyable HackDartmouth experience online.</p>
-				<p className="announcement">For the past few months, the HackDartmouth team has been busy preparing for the event, from designing swag to amassing sponsors and spreading the word about the event. This decision was difficult for us but one that was necessary considering the likely cancellation of Dartmouth’s in-person spring term, recent Dartmouth guidelines restricting group events, and the CDC’s suggestions on restricting large gatherings. Among these confusing and chaotic times, please feel free to reach out to any of us with questions, or if you’re just looking for someone to talk to.</p>
-				<p className="announcement">Best,</p>
-				<p className="announcement">The HackDartmouth Team</p>
-				
-				
+				<p className="info">{headerInfo.date} | {headerInfo.location}</p>
 				{/* <p className="info">{`${headerInfo.date} | ${headerInfo.location}`}</p>
 				<Link activeClass="active" className="test1" to={"register"} spy={true} smooth={true} duration={500} offset={-58}>
 					<Button variant="outline-light" className="registerButton" style={{ backgroundColor: "#ffffff", borderStyle: "none", color: "#5f936a", fontWeight: "bold"}}>

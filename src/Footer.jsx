@@ -5,7 +5,7 @@ import { Link, DirectLink, Element , Events, animateScroll, scrollSpy, scroller 
 import { isMobile } from 'react-device-detect';
 import { SocialIcon } from 'react-social-icons';
 
-const socialSize = isMobile ? 25 : 35;
+const socialSize = isMobile ? 25 : 45;
 const Footer = (props) => (
     <div className='socialContainer'>
             {props.socialLinks.map(link => (
