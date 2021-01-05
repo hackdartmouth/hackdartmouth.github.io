@@ -6,7 +6,7 @@ import Particles from 'react-particles-js';
 
 const headerInfo = {
   title: 'HackDartmouth VII',
-  date: 'Spring 2021',
+  date: 'April 16-18th, 2021',
   location: '~Virtual~',
   backgroundImg: 'header.png',
   sectionColor: '#5f936a',
