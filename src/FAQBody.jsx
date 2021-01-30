@@ -62,6 +62,7 @@ export default class FAQBody extends React.Component {
     const newQA = qa.filter(this.isFiller);
     for (let i = 0; i < filler; i += 1) {
       newQA.push({ title: '', text: '' });
+      console.log(this.state.qa);
     }
 
     this.setState({ qa: newQA });
