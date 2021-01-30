@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import './FAQBody.css';
 import Markdown from 'markdown-to-jsx';
 
@@ -33,7 +33,7 @@ export default class FAQBody extends React.Component {
     super();
 
     this.state = {
-      qa: props.bodyContent,
+      bodyContent: props.bodyContent,
     };
   }
 
@@ -47,7 +47,7 @@ export default class FAQBody extends React.Component {
   }
 
   updateQAList() {
-    const { bodyContent, qa } = this.props;
+    const { bodyContent } = this.props;
     const width = window.innerWidth;
     let filler;
 
@@ -59,17 +59,16 @@ export default class FAQBody extends React.Component {
       filler = (bodyContent % 2 === 0) ? 0 : 2 - (bodyContent.length % 2);
     }
 
-    const newQA = qa.filter(this.isFiller);
+    const newQA = bodyContent.filter(faq => isFiller(faq));
     for (let i = 0; i < filler; i += 1) {
       newQA.push({ title: '', text: '' });
-      console.log(this.state.qa);
     }
 
-    this.setState({ qa: newQA });
+    this.setState({ bodyContent: newQA });
   }
 
   render() {
-    const { qa } = this.state;
+    const { bodyContent } = this.state;
 
     return (
       <div>
@@ -87,7 +86,7 @@ export default class FAQBody extends React.Component {
           <br />
         </div>
         <div className="gridContainer">
-          {qa.map(QA => (
+          {bodyContent.map(QA => (
             <div className="QABlock">
               {styleFuncBlock(QA.title, QA.text)}
             </div>
@@ -98,9 +97,9 @@ export default class FAQBody extends React.Component {
   }
 }
 
-FAQBody.propTypes = {
-  bodyContent: PropTypes.shape({
-    col1: PropTypes.array.isRequired,
-    col2: PropTypes.array.isRequired,
-  }).isRequired,
-};
+// FAQBody.propTypes = {
+//   bodyContent: PropTypes.array(PropTypes.shape{
+//     col1: PropTypes.array.isRequired,
+//     col2: PropTypes.array.isRequired,
+//   }).isRequired,
+// };

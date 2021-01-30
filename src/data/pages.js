@@ -28,7 +28,7 @@ const pages = [
       },
       {
         title: 'Who can attend?',
-        text: 'Any university student (graduate or undergraduate) is welcome to participate! We also admit high school students with parental permission.',
+        text: 'Any university student (graduate or undergraduate) is welcome to participate!',
       },
       {
         title: 'Do I need experience?',

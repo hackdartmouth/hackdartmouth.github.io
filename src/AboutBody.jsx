@@ -16,7 +16,7 @@ const CountdownValue = ({ value, label }) => {
       </p>
     </div>
   );
-}
+};
 
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
@@ -29,7 +29,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
     return (
       <div>
         <h1 className='countdownTitle'>
-          HackDartmouth VI starts in:
+          HackDartmouth VIrtual starts in:
         </h1>
         <div className='countdownContainer'>
           <CountdownValue value={String(days).padStart(2, '0')} label='days' />
