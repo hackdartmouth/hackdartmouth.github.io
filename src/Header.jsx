@@ -59,7 +59,7 @@ const Header = () => (
           <p className="info">
             {headerInfo.date}
             {' '}
-|
+
             {' '}
             {headerInfo.location}
           </p>
