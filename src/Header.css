@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic,medium');
+@font-face {
+    font-family: 'din';
+    src:  url('./fonts/din/din1451alt_g-webfont.woff2') format('woff2'),
+        url('./fonts/din/din1451alt_g-webfont.woff') format('woff');
+}
 
 .headerContainer {
     padding: 0;
@@ -21,10 +26,16 @@
 .title{
     color: #ffffff;
     font-size: calc(1em + 6vw);
-    font-family: "Poppins";
-    font-weight: 500;
+    font-family: 'Roboto';
+    font-weight: 300;
     width: 100%;
     margin-bottom: 0;
+}
+.title b {
+    font-weight: 500;
+}
+.title-small {
+    font-size: calc(.075em + 6vw);
 }
 .info{
     color: #C2Cb81;
