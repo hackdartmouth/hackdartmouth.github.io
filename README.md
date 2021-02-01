@@ -4,4 +4,4 @@
 
 ---
 
-This site was built on React, and is hosted on Netlify.
+This site was built with React, and is hosted on Netlify.
