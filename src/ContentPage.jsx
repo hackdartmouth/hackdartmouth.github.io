@@ -35,6 +35,7 @@ const ContentPage = ({
     }
     if (typeof r != "undefined") return ((r*299)+(g*587)+(b*114))/1000;
   }
+
   return (
     <Element name={href} className="element">
       <div className="pageContainer" style={{ backgroundColor: sectionColor }}>
