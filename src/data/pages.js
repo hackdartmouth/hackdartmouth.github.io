@@ -8,7 +8,7 @@ const pages = [
     titleColor: '#5f936a',
     bodyContent: {
       blurb: [
-        'Welcome to HackDartmouth 2021! Despite the challenges of 2020, the HackDartmouth team is gearing up to host a fantastic ~virtual~ hackathon this Spring! Like years prior, the event features 24 hours of coding, swag, and amazing prizes! Before the event, feel free to check out some of our [past projects](https://hackdartmouthv.devpost.com/submissions).',
+        'Welcome to HackDartmouth 2021!\n\nDespite the challenges of 2020, the HackDartmouth team is gearing up to host a fantastic ~virtual~ hackathon this Spring! Like years prior, the event features 24 hours of coding, swag, and amazing prizes!\n\nBefore the event, feel free to check out some of our [past projects](https://hackdartmouthv.devpost.com/submissions).',
       ],
       upcomingDate: '16 Apr 2021 07:30:00 EST',
     },
