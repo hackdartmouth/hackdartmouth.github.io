@@ -1,7 +1,7 @@
 {
-  "homepage": "http://hackdartmouth.github.io",
-  "name": "hackdartmouth.github.io",
-  "version": "0.1.0",
+  "homepage": "https://hackdartmouth.org",
+  "name": "hackdartmouth.org",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@typeform/embed": "^0.9.5",
@@ -30,9 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build && cp CNAME build/CNAME",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
