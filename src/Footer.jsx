@@ -9,7 +9,10 @@ const Footer = (props) => (
     {props.socialLinks.map(link => (
       <SocialIcon url={link} bgColor='#ffffff' className={ isMobile ? 'socialMobile' : 'social' } style={{ height: socialSize, width: socialSize }} />
     ))}
+    <br></br>
+    <a style={{color:"#FFFFFF"}} href="http://mlh.io/code-of-conduct" class="active">MLH Code of Conduct</a>
   </div>
+  
 );
 
 export default Footer;

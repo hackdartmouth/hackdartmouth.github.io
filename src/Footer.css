@@ -1,8 +1,10 @@
 .socialContainer{
-  display: flex;
+  display: block;
+  text-align: center;
   justify-content: center;
   background-color: #5f936a;
   padding: 1em;
+  font-family: "Roboto";
 }
 .social{
   margin: 1.5em 1vw 1.5em 1vw;
