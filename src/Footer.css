@@ -1,12 +1,21 @@
 .socialContainer{
-  display: flex;
+  display: block;
+  text-align: center;
   justify-content: center;
   background-color: #5f936a;
   padding: 1em;
+  font-family: "Roboto";
 }
-.social{
+
+.social {
   margin: 1.5em 1vw 1.5em 1vw;
 }
-.socialMobile{
+
+.socialMobile {
   margin: 1.5em 1vw 1em 1vw;
+}
+
+.socialContainer a {
+  color: white;
+  flex-basis: 100%;
 }

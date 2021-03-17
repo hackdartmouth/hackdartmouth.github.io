@@ -4,11 +4,20 @@ import { isMobile } from 'react-device-detect';
 import { SocialIcon } from 'react-social-icons';
 
 const socialSize = isMobile ? 25 : 45;
-const Footer = (props) => (
-  <div className='socialContainer'>
-    {props.socialLinks.map(link => (
-      <SocialIcon url={link} bgColor='#ffffff' className={ isMobile ? 'socialMobile' : 'social' } style={{ height: socialSize, width: socialSize }} />
+
+const Footer = ({socialLinks}) => (
+  <div className="socialContainer">
+    {socialLinks.map(link => (
+      <SocialIcon
+        key={link}
+        url={link}
+        bgColor="#FFFFFF"
+        className={isMobile ? 'socialMobile' : 'social'}
+        style={{ height: socialSize, width: socialSize }}
+      />
     ))}
+    <br />
+    <a href="http://mlh.io/code-of-conduct">MLH Code of Conduct</a>
   </div>
 );
 
