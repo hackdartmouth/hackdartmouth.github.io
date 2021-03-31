@@ -60,7 +60,7 @@ const pages = [
       },
       {
         title: 'When is the deadline to register?',
-        text: 'Registration is open until March 20th!',
+        text: 'Registration is open until the day of the hackathon!',
       },
       {
         title: 'Other questions?',
