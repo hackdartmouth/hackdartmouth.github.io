@@ -145,8 +145,7 @@ const pages = [
           //{src:'boloco.png', link: 'http://www.boloco.com/'},
           {src:'magnusoncenter.png', link: 'https://magnuson.dartmouth.edu/'},
           {src:'googlecloud.png', link: 'https://cloud.google.com/'},
-          {src:'contrarycapital.png', link: 'https://contrarycap.com/'},
-
+          {src:'contrarycapital.jpg', link: 'https://contrarycap.com/'},
         ],
       },
       /* {
