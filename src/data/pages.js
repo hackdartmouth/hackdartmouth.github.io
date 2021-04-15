@@ -127,7 +127,7 @@ const pages = [
     key: 'ScheduleBody',
   },
   {
-    visible: false,
+    visible: true,
     navText: 'SPONSORS',
     href: 'sponsors',
     sectionColor: '#9BCFB8',
@@ -136,24 +136,28 @@ const pages = [
     bodyContent: [
       {
         sponsorTier: 'PARTNERS',
-        amount: '$xK',
+        //amount: '$xK',
         size: 20,
         sponsors: [
-          {src:'wolf.png', link: 'https://www.wolframalpha.com/'},
-          {src:'neukom.png', link: 'https://neukom.dartmouth.edu/'},
-          {src:'dartmouth_cs.png', link: 'https://web.cs.dartmouth.edu/'},
-          {src:'boloco.png', link: 'http://www.boloco.com/'},
+          //{src:'wolf.png', link: 'https://www.wolframalpha.com/'},
+          //{src:'neukom.png', link: 'https://neukom.dartmouth.edu/'},
+          //{src:'dartmouth_cs.png', link: 'https://web.cs.dartmouth.edu/'},
+          //{src:'boloco.png', link: 'http://www.boloco.com/'},
+          {src:'magnusoncenter.png', link: 'https://magnuson.dartmouth.edu/'},
+          {src:'googlecloud.png', link: 'https://cloud.google.com/'},
+          {src:'contrarycapital.png', link: 'https://contrarycap.com/'},
+
         ],
       },
-      {
+      /* {
         sponsorTier: 'SHRUB',
         amount: '$1K',
         size: 12,
         sponsors: [
           // {src:'microsoft.png', link: 'https://www.microsoft.com/en-us/'}
         ],
-      },
-      {
+      }, */
+      /* {
         sponsorTier: 'TREE',
         amount: '$2.5K',
         size: 15,
@@ -162,8 +166,8 @@ const pages = [
           // {src:'minerva.png', link: 'https://www.minervaanalytics.co/'},
           {src:'tomtom.png', link: 'https://www.tomtom.com/en_us/'}
         ],
-      },
-      {
+      }, */
+      /* {
         sponsorTier: 'REDWOOD',
         amount: '$5K',
         size: 20,
@@ -172,7 +176,7 @@ const pages = [
           // {src:'intralinks.svg', link: 'https://www.intralinks.com/'},
           // {src:'wayfair.png', link: 'https://www.wayfair.com/'}
         ],
-      },
+      }, */
     ],
     key: 'SponsorBody',
   },
