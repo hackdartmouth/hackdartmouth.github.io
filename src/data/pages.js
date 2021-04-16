@@ -190,7 +190,7 @@ const pages = [
       event: 'HackDartmouth VIrtual',
       date: 'April 16-18th, 2021',
       // location: 'Virtual',
-      info: 'Registration for non-Dartmouth students closes March 20th. Dartmouth students may register up to the day of the hackathon',
+      info: 'Registration for non-Dartmouth students closes March 20th. Dartmouth students may register until April 16th at 10 am EDT.',
       typeformUrl: 'https://hackdartmouth.typeform.com/to/LU7ubUtU',
     },
     key: 'RegisterBody',
