@@ -3,8 +3,8 @@ import './Header.css';
 import Particles from 'react-particles-js';
 
 const headerInfo = {
-  // title: 'HackDartmouth VIrtual',
-  date: 'April 16-18th, 2021',
+  title: 'HackDartmouth VII',
+  date: 'April 16-18th, 2022',
   location: '',
   backgroundImg: 'header.png',
   sectionColor: '#5f936a',
@@ -13,11 +13,10 @@ const headerInfo = {
 const Header = () => (
   <>
     {/* MLH Trust Badge, attached to header, stays at top as you scroll */}
-    <a id="mlh-trust-badge" style={{display: 'block', maxWidth: '100px', minWidth: '60px', position: 'fixed', right: '50px', top: 0, width: '10%', zIndex: 10000}} 
+    {/* <a id="mlh-trust-badge" style={{display: 'block', maxWidth: '100px', minWidth: '60px', position: 'fixed', right: '50px', top: 0, width: '10%', zIndex: 10000}} 
       href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=gray" target="_blank">
         <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg" alt="Major League Hacking 2021 Hackathon Season" style={{width: '100%'}} />
-    </a>
-
+    </a> */}
     <div className="headerContainer" style={{ backgroundColor: headerInfo.sectionColor }}>
       <div style={{ position: 'absolute', width: '100%' }}>
         <Particles
@@ -61,7 +60,7 @@ const Header = () => (
       </div>
       <div className="textBigContainer">
         <div className="textContainer">
-          <p className="title">Hack<b>Dartmouth VI</b><span className="title-small">rtual</span></p>
+          <p className="title">{headerInfo.title}</p>
           <p className="info">
             {headerInfo.date}
             {' '}
