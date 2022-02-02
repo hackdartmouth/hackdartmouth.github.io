@@ -8,9 +8,9 @@ const pages = [
     titleColor: '#5f936a',
     bodyContent: {
       blurb: [
-        'Welcome to HackDartmouth 2021!\n\nDespite the challenges of 2020, the HackDartmouth team is gearing up to host a fantastic ~virtual~ hackathon this Spring! Like years prior, the event features 24 hours of coding, swag, and amazing prizes!\n\nBefore the event, feel free to check out some of our [past projects](https://hackdartmouthv.devpost.com/submissions).',
+        'Welcome to HackDartmouth 2022!\n\nThe team is gearing up to host a fantastic ~hybrid~ hackathon this Spring! Like years prior, the event features 24 hours of coding, swag, and amazing prizes!\n\nBefore the event, feel free to check out some of our [past projects](https://hackdartmouthv.devpost.com/submissions).',
       ],
-      upcomingDate: '16 Apr 2021 07:30:00 EST',
+      upcomingDate: '16 Apr 2022 07:30:00 EST',
     },
     key: 'AboutBody',
   },
@@ -22,13 +22,13 @@ const pages = [
     pageTitle: 'FAQ',
     titleColor: '#ffffff',
     bodyContent: [
-      {
-        title: 'What\'s a virtual hackathon?',
-        text: 'A hackathon is an event in which groups of hackers divide into teams to develop a product. This year, we’ll be hosting our hackathon online. Hundreds of programmers from around the world will team-up to build something from scratch, be it a website, app, or some other product of their imagination.',
-      },
+      // {
+      //   title: 'What\'s a virtual hackathon?',
+      //   text: 'A hackathon is an event in which groups of hackers divide into teams to develop a product. This year, we’ll be hosting our hackathon online. Hundreds of programmers from around the world will team-up to build something from scratch, be it a website, app, or some other product of their imagination.',
+      // },
       {
         title: 'Who can attend?',
-        text: 'Any university student (graduate or undergraduate) is welcome to participate!',
+        text: 'Due to recent spikes in COVID rates in our area, this hackathon will be limited to Dartmouth students.',
       },
       {
         title: 'Do I need experience?',
@@ -36,7 +36,7 @@ const pages = [
       },
       {
         title: 'Do I need a team?',
-        text: "Nope! While teams can be specified on the application, you won't officially create your team until the event. You do not have to sign up with a team - we will also host a virtual team formation social before hacking begins!",
+        text: "Nope! While teams can be specified on the application, you won't officially create your team until the event. You do not have to sign up with a team, we will host a team formation social before hacking begins!",
       },
       {
         title: 'What can I build?',
@@ -50,13 +50,13 @@ const pages = [
         title: 'What can I win?',
         text: 'A panel of judges will decide on the winning hacks based on criteria of creativity, usefulness, technical difficulty, and form. The top prizes are TBA. Previous prizes have included drones, Apple watches, Nintendo switches, bluetooth speakers, and other awesome tech.'
       },
-      {
-        title: 'How will prizes and swag work?',
-        text: 'Given the virtual format of the hackathon, this year we’ll be mailing swag to everyone that submits a project! We’ll be shipping out swag and prizes anywhere in the US and requests outside of the US will be approved on a case-by-case basis.',
-      },
+      // {
+      //   title: 'How will prizes and swag work?',
+      //   text: 'Given the virtual format of the hackathon, this year we’ll be mailing swag to everyone that submits a project! We’ll be shipping out swag and prizes anywhere in the US and requests outside of the US will be approved on a case-by-case basis.',
+      // },
       {
         title: 'How can I support the hackathon?',
-        text: 'If you are interested in being a mentor or sponsor, contact us [here](mailto:sponsors@hackdartmouth.io)!',
+        text: 'If you are interested in being a mentor or sponsor, contact us [here](mailto:dartmouthhackathon@gmail.com)!',
       },
       {
         title: 'When is the deadline to register?',
@@ -64,7 +64,7 @@ const pages = [
       },
       {
         title: 'Other questions?',
-        text: 'Shoot us an [email](mailto:questions@hackdartmouth.io) and we’ll get back to you as soon as we can!',
+        text: 'Shoot us an [email](mailto:dartmouthhackathon@gmail.com) and we’ll get back to you as soon as we can!',
       }
     ],
     key: 'FAQBody',
@@ -127,7 +127,7 @@ const pages = [
     key: 'ScheduleBody',
   },
   {
-    visible: true,
+    visible: false,
     navText: 'SPONSORS',
     href: 'sponsors',
     sectionColor: '#9BCFB8',
@@ -180,17 +180,17 @@ const pages = [
     key: 'SponsorBody',
   },
   {
-    visible: true,
+    visible: false,
     navText: 'REGISTER',
     href: 'register',
     sectionColor: '#5f936a',
-    pageTitle: 'Register for HackDartmouth VIrtual',
+    pageTitle: 'Register for HackDartmouth VII',
     titleColor: '#ffffff',
     bodyContent: {
-      event: 'HackDartmouth VIrtual',
-      date: 'April 16-18th, 2021',
-      // location: 'Virtual',
-      info: 'Registration for non-Dartmouth students closes March 20th. Dartmouth students may register until April 16th at 12 pm EDT.',
+      event: 'HackDartmouth VII',
+      date: 'April 16-18th, 2022',
+      location: 'Thayer School of Engineering, 1 Engineering Dr. Hanover, NH 03755',
+      info: 'Registration for Dartmouth students closes the day of the Hackathon.',
       typeformUrl: 'https://hackdartmouth.typeform.com/to/LU7ubUtU',
     },
     key: 'RegisterBody',
