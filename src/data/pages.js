@@ -188,7 +188,7 @@ const pages = [
     titleColor: '#ffffff',
     bodyContent: {
       event: 'HackDartmouth VII',
-      date: 'April 16-18th, 2022',
+      date: 'April 16-1th, 2022',
       location: 'Thayer School of Engineering, 1 Engineering Dr. Hanover, NH 03755',
       info: 'Registration for Dartmouth students closes the day of the Hackathon.',
       typeformUrl: 'https://hackdartmouth.typeform.com/to/LU7ubUtU',
