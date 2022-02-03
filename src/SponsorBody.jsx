@@ -11,7 +11,7 @@ const SponsorBody = ({ bodyContent }) => {
           if(tier.sponsors.length>0){
             return(
               <div class="tierContainer">
-                <h1 className="tierTitle">{`{ ${tier.sponsorTier} }`}</h1>
+                {/* <h1 className="tierTitle">{`{ ${tier.sponsorTier} }`}</h1> */}
                 <hr className="divider" />
                 {
                   tier.sponsors.map(company => (
