@@ -139,13 +139,14 @@ const pages = [
         //amount: '$xK',
         size: 20,
         sponsors: [
-          //{src:'dartmouth_cs.png', link: 'https://web.cs.dartmouth.edu/'},
+          
           {src:'tomtom.png', link: 'https://www.tomtom.com/en_us/'},
           {src:'googlecloud.png', link: 'https://cloud.google.com/'},
           {src:'stickermule.png', link: 'https://www.stickermule.com/'},
           {src:'echo3D.png', link: 'https://www.echo3d.co/'},
           {src:'magnuson.png', link: 'https://magnuson.dartmouth.edu/'},
           {src:'linkedin.png', link: 'https://www.linkedin.com/'},
+          {src:'dartmouth_cs.png', link: 'https://web.cs.dartmouth.edu/'},
           // duplicated sponsor images for scrolling effect
           {src:'tomtom.png', link: 'https://www.tomtom.com/en_us/'},
           {src:'googlecloud.png', link: 'https://cloud.google.com/'},
@@ -153,6 +154,7 @@ const pages = [
           {src:'echo3D.png', link: 'https://www.echo3d.co/'},
           {src:'magnuson.png', link: 'https://magnuson.dartmouth.edu/'},
           {src:'linkedin.png', link: 'https://www.linkedin.com/'},
+          {src:'dartmouth_cs.png', link: 'https://web.cs.dartmouth.edu/'},
         ],
       },
       /* {

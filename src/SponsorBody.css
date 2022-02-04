@@ -10,6 +10,7 @@
   color: #f3f3f3;
   font-size: calc(1em + 1vw);
 } */
+
 .sponsorContainer{
   display: flex;
   flex-flow: row wrap;
@@ -46,6 +47,6 @@
       transform: translate(0, 0);
   }
   100% {
-      transform: translate(-600%, 0);
+      transform: translate(-700%, 0);
   }
 }
