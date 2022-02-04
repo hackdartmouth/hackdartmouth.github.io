@@ -22,14 +22,14 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
     return (
       <div className='countdown'>
-        HackDartmouthVI is underway!
+        HackDartmouthVII is underway!
       </div>
     );
   } else {
     return (
       <div>
         <h1 className='countdownTitle'>
-          HackDartmouth VIrtual starts in:
+          HackDartmouth VII starts in:
         </h1>
         <div className='countdownContainer'>
           <CountdownValue value={String(days).padStart(2, '0')} label='days' />
