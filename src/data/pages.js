@@ -142,7 +142,7 @@ const pages = [
           
           {src:'tomtom.png', link: 'https://www.tomtom.com/en_us/'},
           {src:'googlecloud.png', link: 'https://cloud.google.com/'},
-          {src:'stickermule.png', link: 'https://www.stickermule.com/'},
+          {src:'stickermule.png', link: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=HACKDARTMOUTH2022'},
           {src:'echo3D.png', link: 'https://www.echo3d.co/'},
           {src:'magnuson.png', link: 'https://magnuson.dartmouth.edu/'},
           // {src:'linkedin.png', link: 'https://www.linkedin.com/'},
@@ -150,7 +150,7 @@ const pages = [
           // duplicated sponsor images for scrolling effect
           {src:'tomtom.png', link: 'https://www.tomtom.com/en_us/'},
           {src:'googlecloud.png', link: 'https://cloud.google.com/'},
-          {src:'stickermule.png', link: 'https://www.stickermule.com/'},
+          {src:'stickermule.png', link: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=HACKDARTMOUTH2022'},
           {src:'echo3D.png', link: 'https://www.echo3d.co/'},
           {src:'magnuson.png', link: 'https://magnuson.dartmouth.edu/'},
           // {src:'linkedin.png', link: 'https://www.linkedin.com/'},
