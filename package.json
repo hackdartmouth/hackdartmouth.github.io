@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@typeform/embed": "^0.9.5",
+    "fs": "^0.0.1-security",
     "gh-pages": "^2.2.0",
     "markdown-to-jsx": "^6.10.3",
     "particles.js": "^2.0.0",
